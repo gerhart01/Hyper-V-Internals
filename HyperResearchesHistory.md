@@ -16,13 +16,13 @@
 
 [2014] [ERNW]. Felix Wilhelm [(@_fel1x)](https://twitter.com/_fel1x), Matthias Luft  [(@uchi_mata)](https://twitter.com/uchi_mata), Enno Rey [(@enno_insinuator)](https://twitter.com/enno_insinuator). Compromise-as-a-Service. Our PleAZURE. HitB Ams 2014 [Link](https://www.ernw.de/download/ERNW_HITBAMS14_HyperV_fwilhelm_mluft_erey.pdf)
 
-[2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](http://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)
-
 [2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Ring 0 to Ring -1 Attacks. Hyper-V IPC Internals. [Link](http://web.archive.org/web/20190419095356/http://www.alex-ionescu.com/syscan2015.pdf)
 
 [2016] Hyper-V vmswitch.sys VmsMpCommonPvtHandleMulticastOids Guest to Host Kernel-Pool Overflow. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=688)
 
-[2016] Hyper-V vmswitch.sys VmsVmNicHandleRssParametersChange OOBR Guest to Host BugChecks. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=688) 
+[2016] Hyper-V vmswitch.sys VmsVmNicHandleRssParametersChange OOBR Guest to Host BugChecks. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=689)
+
+[2016] Hyper-V vmswitch.sys VmsPtpIpsecTranslateAddv2toAddv2Ex OOBR Guest to Host BugCheck. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=690)  
 
 [2017] Andrea Allievi [(@aall86)](https://twitter.com/aall86). The Hyper-V Architecture and its Memory Manager. [Link](http://www.andrea-allievi.com/files/Recon_2017_Montreal_HyperV_public.pptx)
 
@@ -40,7 +40,7 @@
 
 [2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Writing a Hyper-V “Bridge” for Fuzzing — Part 2 : Hypercalls & MDLs. [Link](http://web.archive.org/web/20191024140329/http://www.alex-ionescu.com/?p=471)
 
-[2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://www.interopevents.com/uploads/917318-2_21_1130_State%20of%20Hyper-V%20API%20World.pdf)
+[2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://yadi.sk/i/50-ADlmZ7HKq9Q)
 
 [2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/)
 
@@ -58,11 +58,20 @@
 
 [2019] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). Attacking the VM Worker Process. [Link](https://msrc-blog.microsoft.com/2019/09/11/attacking-the-vm-worker-process/)
 
-(Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V sources)
+[2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services descprition. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
+
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html)
+
+
+(Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
 
 ## VBS\VSM reseaches
 
 I'm not specalized in VBS, which is only Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
+
+[2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](http://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)
+
+[2015] Guillaume C. Windows 10 VSM Présentation des nouveautés et implémentations. [Link](https://www.ossir.org/bretagne/supports/2015/201512/win10vsm.pdf)
 
 [2016] Rafal Wojtczuk. Analysis of the Attack Surface of Windows 10 Virtualization-Based Security]. [Presentation. ](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security.pdf)
 [Whitepaper](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security-wp.pdf)
@@ -70,6 +79,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 [2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link](https://blog.amossys.fr/virtualization-based-security-part1.html)
 
 [2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link](https://blog.amossys.fr/virtualization-based-security-part2.html)
+
+[2017] Hans Kristian Brendmo. Live forensics on the Windows 10 secure kernel. [Link](https://pdfs.semanticscholar.org/e275/cc28c5c8e8e158c45e5e773d0fa3da01e118.pdf)
 
 [2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](http://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)
 
@@ -86,3 +97,40 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 [2019] Lukas Beierlieb, Lukas Ifflander, Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski), Charles F. Goncalves, Nuno Antunes, Samuel Kounev. Towards Testing the Software Aging Behavior of Hypervisor Hypercall Interfaces. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/milenkoski_issrew_signed.pdf)
 
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 6: Virtual Secure Mode. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage6_Virtual_Secure_Mode.pdf?__blob=publicationFile&v=2)
+
+[2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)
+
+## Open source utilities, scripts.
+
+[2013-2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
+* Files to "Hyper-V debugging for beginners (2013)" article [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
+* Files to "Hyper-V internals (2015)" article [Link](https://drive.google.com/file/d/0B8WEjIxRncDRUVFLWGhXN0xDMHc)
+* LiveCloudKd fork [Link](https://github.com/gerhart01/LiveCloudKd)
+* WinDBG EXDi sample plugin [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)
+* Native Hyper-V reading memory example driver [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
+* Scripts for Hyper-V reseaching [Link](https://github.com/gerhart01/Hyper-V-scripts)
+	 * Create hypercalls table in IDA PRO [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
+	 * Parse VM_PROCESS_CONTEXT structure (pykd base) [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
+	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session) [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
+	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities (https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
+
+[2016] Yuriy Bulygin. Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
+
+[2018] Windows Hypervisor Platform API for Rust](https://crates.io/crates/libwhp)
+
+[2018] Alex Ionescu (@aionescu). Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803)](https://github.com/ionescu007/Simpleator).
+
+[2018] Windows Hypervisor Platform API for Rust (https://crates.io/crates/libwhp)
+
+[2018] Matt Suiche [(@msuiche)](https://twitter.com/msuiche)(https://github.com/comaeio/LiveCloudKd)
+
+[2019] Axel Souchet (@0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs] (https://github.com/0vercl0k/pywinhv)
+
+[2019] Behrooz [(@rceninja)](https://twitter.com/rceninja) 
+* ia32_msr_decoder.py [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
+* IA32_VMX_Helper.py [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
+
+
+[2020] Dmytro "Cr4sh" Oleksiuk [(@d_olex)](https://twitter.com/d_olex). Hyper-V backdoor, which allows to inspect Secure Kernel and run 3-rd party trustlets in the Isolated User Mode (a virtualization-based security feature of Windows 10). [Link](https://github.com/Cr4sh/s6_pcie_microblaze/tree/master/python/payloads/DmaBackdoorHv)
+
+[2020] Matt Miller [(@epakskape)](https://twitter.com/epakskape) WHVP API based NOP-generator. [Link]https://github.com/epakskape/whpexp)
