@@ -60,7 +60,7 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services descprition. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/)
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
 
 
 (Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
@@ -99,6 +99,10 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 6: Virtual Secure Mode. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage6_Virtual_Secure_Mode.pdf?__blob=publicationFile&v=2)
 
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)
+
+[2020] Andrea Allievi [(@aall86)](https://twitter.com/aall86). Introducing Kernel Data Protection, a new platform security technology for preventing data corruption. [Link](https://www.microsoft.com/security/blog/2020/07/08/introducing-kernel-data-protection-a-new-platform-security-technology-for-preventing-data-corruption/)
+
+[2020] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). Secure Pool Internals : Dynamic KDP Behind The Hood. [Link](https://windows-internals.com/secure-pool)
 
 ## Hyper-V related open source utilities, scripts. 
 
