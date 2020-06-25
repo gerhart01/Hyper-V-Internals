@@ -100,7 +100,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)
 
-## Hyper-V related open source utilities, scripts.
+## Hyper-V related open source utilities, scripts. 
 
 [2013-2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files to "Hyper-V debugging for beginners (2013)" article. [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
