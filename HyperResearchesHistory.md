@@ -60,7 +60,7 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services descprition. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/)
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
 
 
 (Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
