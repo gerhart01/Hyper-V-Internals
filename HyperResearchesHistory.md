@@ -103,34 +103,33 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 ## Hyper-V related open source utilities, scripts.
 
 [2013-2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
-* Files to "Hyper-V debugging for beginners (2013)" article [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
-* Files to "Hyper-V internals (2015)" article [Link](https://drive.google.com/file/d/0B8WEjIxRncDRUVFLWGhXN0xDMHc)
-* LiveCloudKd fork [Link](https://github.com/gerhart01/LiveCloudKd)
-* WinDBG EXDi sample plugin [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)
-* Native Hyper-V reading memory example driver [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
-* Scripts for Hyper-V reseaching [Link](https://github.com/gerhart01/Hyper-V-scripts)
-	 * Create hypercalls table in IDA PRO [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
-	 * Parse VM_PROCESS_CONTEXT structure (pykd base) [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
-	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session) [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
-	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities (https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
+* Files to "Hyper-V debugging for beginners (2013)" article. [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
+* Files to "Hyper-V internals (2015)" article. [Link](https://drive.google.com/file/d/0B8WEjIxRncDRUVFLWGhXN0xDMHc)
+* LiveCloudKd fork. [Link](https://github.com/gerhart01/LiveCloudKd)
+* WinDBG EXDi sample plugin. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)
+* Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
+* Scripts for Hyper-V reseaching. [Link](https://github.com/gerhart01/Hyper-V-scripts)
+	 * Create hypercalls table in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
+	 * Parse VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
+	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
+	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
 
-[2016] Yuriy Bulygin. Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
+[2016] Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
 
-[2018] Windows Hypervisor Platform API for Rust](https://crates.io/crates/libwhp)
+[2018] Windows Hypervisor Platform API for Rust. [Link](https://crates.io/crates/libwhp)
 
-[2018] Alex Ionescu (@aionescu). Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803)](https://github.com/ionescu007/Simpleator).
+[2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).
 
-[2018] Windows Hypervisor Platform API for Rust (https://crates.io/crates/libwhp)
+[2018] Windows Hypervisor Platform API for Rust. [Link](https://crates.io/crates/libwhp)
 
-[2018] Matt Suiche [(@msuiche)](https://twitter.com/msuiche)(https://github.com/comaeio/LiveCloudKd)
+[2018] Matt Suiche. LiveCloudKd [(@msuiche)](https://twitter.com/msuiche). [Link](https://github.com/comaeio/LiveCloudKd)
 
-[2019] Axel Souchet (@0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs] (https://github.com/0vercl0k/pywinhv)
+[2019] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
 
 [2019] Behrooz [(@rceninja)](https://twitter.com/rceninja) 
-* ia32_msr_decoder.py [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
-* IA32_VMX_Helper.py [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
-
+* ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
+* IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
 
 [2020] Dmytro "Cr4sh" Oleksiuk [(@d_olex)](https://twitter.com/d_olex). Hyper-V backdoor, which allows to inspect Secure Kernel and run 3-rd party trustlets in the Isolated User Mode (a virtualization-based security feature of Windows 10). [Link](https://github.com/Cr4sh/s6_pcie_microblaze/tree/master/python/payloads/DmaBackdoorHv)
 
-[2020] Matt Miller [(@epakskape)](https://twitter.com/epakskape) WHVP API based NOP-generator. [Link]https://github.com/epakskape/whpexp)
+[2020] Matt Miller [(@epakskape)](https://twitter.com/epakskape) WHVP API based NOP-generator. [Link](https://github.com/epakskape/whpexp)
