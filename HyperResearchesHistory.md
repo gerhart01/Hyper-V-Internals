@@ -104,6 +104,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2020] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). Secure Pool Internals : Dynamic KDP Behind The Hood. [Link](https://windows-internals.com/secure-pool)
 
+[2020] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar), Daniel King [(@long123king)](https://twitter.com/long123king). Breaking VSM by Attacking Secure Kernel. Hardening Secure Kernel through Offensive Research. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2020_08_BlackHatUSA/Breaking_VSM_by_Attacking_SecureKernel.pdf)
+
 ## Hyper-V related open source utilities, scripts. 
 
 [2013-2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
