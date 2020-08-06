@@ -119,6 +119,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 	 * Parse VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
 	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
 	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
+	 * Script for getting some information from Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
 
 [2016] Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
 
