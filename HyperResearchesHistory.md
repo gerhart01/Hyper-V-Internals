@@ -114,6 +114,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 * LiveCloudKd fork. [Link](https://github.com/gerhart01/LiveCloudKd)
 * WinDBG EXDi sample plugin. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)
 * Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
+* Hyper-V integration plugin for MemProcFs by [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). Plugin description from [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd)
 * Scripts for Hyper-V reseaching. [Link](https://github.com/gerhart01/Hyper-V-scripts)
 	 * Create hypercalls table in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
 	 * Parse VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
