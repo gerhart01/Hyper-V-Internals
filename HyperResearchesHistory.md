@@ -131,6 +131,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2018] Matt Suiche. LiveCloudKd [(@msuiche)](https://twitter.com/msuiche). [Link](https://github.com/comaeio/LiveCloudKd)
 
+[2019] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)
+
 [2019] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
 
 [2019] Behrooz [(@rceninja)](https://twitter.com/rceninja) 
