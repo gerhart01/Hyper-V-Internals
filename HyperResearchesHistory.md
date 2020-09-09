@@ -62,7 +62,7 @@
 
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V nested virtualization DoS vulnerability internals. [Link](http://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](http://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
 
 
 (Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
