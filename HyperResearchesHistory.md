@@ -64,6 +64,10 @@
 
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](http://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
 
+[2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service(CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)
+
+[2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference (CVE-2020-0904). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003)
+
 
 (Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
 
