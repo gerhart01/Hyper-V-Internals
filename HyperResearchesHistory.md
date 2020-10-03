@@ -64,7 +64,7 @@
 
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](http://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
 
-[2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service(CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)
+[2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service (CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)
 
 [2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference (CVE-2020-0904). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003)
 
@@ -149,3 +149,5 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 [2020] Dmytro "Cr4sh" Oleksiuk [(@d_olex)](https://twitter.com/d_olex). Hyper-V backdoor, which allows to inspect Secure Kernel and run 3-rd party trustlets in the Isolated User Mode (a virtualization-based security feature of Windows 10). [Link](https://github.com/Cr4sh/s6_pcie_microblaze/tree/master/python/payloads/DmaBackdoorHv)
 
 [2020] Matt Miller [(@epakskape)](https://twitter.com/epakskape) WHVP API based NOP-generator. [Link](https://github.com/epakskape/whpexp)
+
+[2020] [(@_xeroxz)](https://twitter.com/_xeroxz) Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel). [Link](https://githacks.org/xerox/voyager)
