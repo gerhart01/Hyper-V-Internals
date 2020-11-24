@@ -58,7 +58,7 @@
 
 [2019] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). Attacking the VM Worker Process. [Link](https://msrc-blog.microsoft.com/2019/09/11/attacking-the-vm-worker-process/)
 
-[2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services descprition. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
+[2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services description. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
 
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
 
@@ -67,6 +67,8 @@
 [2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service (CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)
 
 [2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference (CVE-2020-0904). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003)
+
+[2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hypervisor vulnerability research (slides 35-60). [Link](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)
 
 
 (Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
