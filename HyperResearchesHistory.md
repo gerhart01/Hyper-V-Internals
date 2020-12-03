@@ -26,7 +26,7 @@
 
 [2017] Andrea Allievi [(@aall86)](https://twitter.com/aall86). The Hyper-V Architecture and its Memory Manager. [Link](http://www.andrea-allievi.com/files/Recon_2017_Montreal_HyperV_public.pptx)
 
-[2017] Oleksandr Bazhaniuk [(@ABazhaniuk)](https://twitter.com/ABazhaniuk), Mikhail Gorobets [@mikhailgorobets](https://twitter.com/mikhailgorobets), Andrew Furtak, Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Attacking hypervisors through hardware emulation. [CHIPSEC] [FUZZING]. [Link](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
+[2017] Aleksandr Bazhaniuk [(@ABazhaniuk)](https://twitter.com/ABazhaniuk), Mikhail Gorobets [@mikhailgorobets](https://twitter.com/mikhailgorobets), Andrew Furtak, Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Attacking hypervisors through hardware emulation. [CHIPSEC] [FUZZING]. [Link](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
 
 [2017] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V sockets internals. [Link](https://xakep.ru/2017/08/09/hyper-v-internals). [English version link](http://hvinternals.blogspot.com/2017/09/hyperv-socket-internals.html)
 
@@ -70,8 +70,11 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hypervisor vulnerability research (slides 35-60). [Link](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)
 
+## MSDN sources
 
-(Windows Internals book, Hyper-V TLFS, MSDN docs are standard Hyper-V internals information sources)
+Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)
+
+(Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)
 
 ## VBS\VSM reseaches
 
@@ -147,6 +150,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 [2019] Behrooz [(@rceninja)](https://twitter.com/rceninja) 
 * ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
 * IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
+
+[2020] [(@commial)](https://twitter.com/commial). Configure Qemu-KVM for debugging SecureKernel [Link](https://github.com/commial/experiments/tree/master/debugging-secure-kernel)
 
 [2020] Dmytro "Cr4sh" Oleksiuk [(@d_olex)](https://twitter.com/d_olex). Hyper-V backdoor, which allows to inspect Secure Kernel and run 3-rd party trustlets in the Isolated User Mode (a virtualization-based security feature of Windows 10). [Link](https://github.com/Cr4sh/s6_pcie_microblaze/tree/master/python/payloads/DmaBackdoorHv)
 
