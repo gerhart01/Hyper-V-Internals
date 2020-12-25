@@ -70,7 +70,7 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hypervisor vulnerability research (slides 35-60). [Link](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition). [Link][Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
 
 ## MSDN sources
 
