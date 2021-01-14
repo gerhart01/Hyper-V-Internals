@@ -1,0 +1,19 @@
+LIBRARY winhv.sys
+EXPORTS
+	WinHvAllocateOverlayPages@4
+	WinHvDisablePartitionVtl@12
+	WinHvDisableVpVtl@16
+	WinHvEnablePartitionVtl@16
+	WinHvEnableVpVtl@20
+	WinHvFreeOverlayPages@4
+	WinHvGetCurrentVpIndex@4
+	WinHvGetSintEventFlags@4
+	WinHvGetSintMessage@4
+	WinHvGetVpRegisters@32
+	WinHvNtProcessorToVpIndex@8
+	WinHvPostMessage@16
+	WinHvProcessorNumberToVpIndex@8
+	WinHvSetSint@20
+	WinHvSetSintOnCurrentProcessor@16
+	WinHvSetVpRegisters@32
+	WinHvSignalEvent@8
