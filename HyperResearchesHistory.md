@@ -8,9 +8,9 @@
 
 [2011] [Core Security Technologies] Nicolas Economou [(@nicoeconomou)](https://twitter.com/nicoeconomou). Hyper-V Vmbus persistent DoS vulnerability. [Link](https://www.coresecurity.com/content/hyperv-vmbus-persistent-dos-vulnerability)
 
-[2013] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. [Link](https://www.securitylab.ru/contest/444112.php). [English version link](http://hvinternals.blogspot.com/2015/10/hyper-v-debugging-for-beginners.html)
+[2013] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. [Link](https://www.securitylab.ru/contest/444112.php). [English version link](https://hvinternals.blogspot.com/2015/10/hyper-v-debugging-for-beginners.html)
 
-[2014] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. Part 2 или half disclosure of MS13-092 (1-day exploit reseach). [Link](https://www.securitylab.ru/contest/448457.php). [English version link](http://hvinternals.blogspot.com/2017/10/hyper-v-debugging-for-beginners-part-2.html)
+[2014] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. Part 2 или half disclosure of MS13-092 (1-day exploit reseach). [Link](https://www.securitylab.ru/contest/448457.php). [English version link](https://hvinternals.blogspot.com/2017/10/hyper-v-debugging-for-beginners-part-2.html)
 
 [2014] [ERNW]. Felix Wilhelm [(@_fel1x)](https://twitter.com/_fel1x), Matthias Luft [(@uchi_mata)](https://twitter.com/uchi_mata). Security Assessment of Microsoft Hyper-V. MS13-092 full disclosure. [Link](https://static.ernw.de/whitepaper/ERNW_Newsletter_43_HyperV_en.pdf)
 
@@ -28,7 +28,7 @@
 
 [2017] Aleksandr Bazhaniuk [(@ABazhaniuk)](https://twitter.com/ABazhaniuk), Mikhail Gorobets [@mikhailgorobets](https://twitter.com/mikhailgorobets), Andrew Furtak, Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Attacking hypervisors through hardware emulation. [CHIPSEC] [FUZZING]. [Link](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
 
-[2017] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V sockets internals. [Link](https://xakep.ru/2017/08/09/hyper-v-internals). [English version link](http://hvinternals.blogspot.com/2017/09/hyperv-socket-internals.html)
+[2017] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V sockets internals. [Link](https://xakep.ru/2017/08/09/hyper-v-internals). [English version link](https://hvinternals.blogspot.com/2017/09/hyperv-socket-internals.html)
 
 [2018] [Microsoft] Windows Sandbox. [Link](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849)
 
@@ -60,9 +60,9 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services description. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](http://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) 
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](http://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](https://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)
 
 [2020] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service (CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)
 
@@ -70,7 +70,7 @@
 
 [2020] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hypervisor vulnerability research (slides 35-60). [Link](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)
 
-[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
+[2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition).[Link](https://hvinternals.blogspot.com/2021/01/hyper-v-debugging-for-beginners-2nd.html). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
 
 ## MSDN sources
 
