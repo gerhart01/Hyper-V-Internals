@@ -1,6 +1,6 @@
 # Hyper-V internals researches (2006-2020)
 
-[2006] [Microsoft] Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)
+[2006] [Microsoft] Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)
 
 [2007] [Microsoft] Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)
 
