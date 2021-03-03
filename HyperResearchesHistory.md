@@ -72,9 +72,12 @@
 
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition).[Link](https://hvinternals.blogspot.com/2021/01/hyper-v-debugging-for-beginners-2nd.html). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
 
+[2021] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Microsoft Hyper-V Virtual Network Switch VmsMpCommonPvtSetRequestCommon Out of Bounds Read. [Link](https://zerodayengineering.com/blog/hyper-v-vmswitch-oobr.html)
+
 ## MSDN sources
 
 Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)
+Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)
 
