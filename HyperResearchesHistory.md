@@ -42,6 +42,8 @@
 
 [2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://yadi.sk/i/50-ADlmZ7HKq9Q)
 
+[2018] [Microsoft] Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](www.powerofcommunity.net/poc2018/yunhai.pdf)
+
 [2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/)
 
 [2019] [Microsoft] Fuzzing para-virtualized devices in Hyper-V. [Link](https://blogs.technet.microsoft.com/srd/2019/01/28/fuzzing-para-virtualized-devices-in-hyper-v/)
@@ -73,6 +75,9 @@
 [2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition).[Link](https://hvinternals.blogspot.com/2021/01/hyper-v-debugging-for-beginners-2nd.html). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/) 
 
 [2021] Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Microsoft Hyper-V Virtual Network Switch VmsMpCommonPvtSetRequestCommon Out of Bounds Read. [Link](https://zerodayengineering.com/blog/hyper-v-vmswitch-oobr.html)
+
+[2021] Alex Ilgayev [(@_alex_il_)](https://twitter.com/_alex_il_). Playing in the Microsoft Windows Sandbox. [Link](https://research.checkpoint.com/2021/playing-in-the-windows-sandbox/)
+
 
 ## MSDN sources
 
