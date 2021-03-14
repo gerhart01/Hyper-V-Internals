@@ -42,7 +42,7 @@
 
 [2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://yadi.sk/i/50-ADlmZ7HKq9Q)
 
-[2018] [Microsoft] Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](www.powerofcommunity.net/poc2018/yunhai.pdf)
+[2018] [Microsoft] Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](https://www.powerofcommunity.net/poc2018/yunhai.pdf)
 
 [2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/)
 
