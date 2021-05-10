@@ -166,7 +166,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2019] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
 
-[2019] Behrooz Abbassi [(@rceninja)](https://twitter.com/BehroozAbbassi) 
+[2019] Behrooz Abbassi [(@BehroozAbbassi)](https://twitter.com/BehroozAbbassi) 
 * ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
 * IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
 
