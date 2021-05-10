@@ -52,7 +52,7 @@
 
 [2019] [Microsoft] Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)
 
-[2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv)
+[2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Wrb-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)
 
 [2019] Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)
 
@@ -85,6 +85,17 @@ Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/e
 Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)
+
+### Headers from official Windows SDK\WDK
+
+hypervdevicevirtualization.h (WDK)
+vmsavedstatedump.h
+vmsavedstatedumpdefs.h
+WinHvEmulation.h
+WinHvPlatform.h
+WinHvPlatformDefs.h
+wmcontainer.h
+Wmcontainer.idl
 
 ## VBS\VSM reseaches
 
@@ -157,7 +168,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2019] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
 
-[2019] Behrooz [(@rceninja)](https://twitter.com/rceninja) 
+[2019] Behrooz Abbassi [(@rceninja)](https://twitter.com/BehroozAbbassi) 
 * ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
 * IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
 
