@@ -140,8 +140,9 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 ## Hyper-V related open source utilities, scripts. 
 
-[2013-2020] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
+[2013-2021] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files to "Hyper-V debugging for beginners (2013)" article. [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
+* Files to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)
 * Files to "Hyper-V internals (2015)" article. [Link](https://drive.google.com/file/d/0B8WEjIxRncDRUVFLWGhXN0xDMHc)
 * LiveCloudKd fork. [Link](https://github.com/gerhart01/LiveCloudKd)
 * WinDBG EXDi sample plugin. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)
@@ -153,6 +154,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
 	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
 	 * Script for getting some information from Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
+
+[2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
 
 [2016] Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
 
