@@ -4,7 +4,7 @@
 
 [2007] [Microsoft] Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)
 
-[2011] Matt Suiche [(@msuiche)](https://twitter.com/msuiche). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)
+[2011] Matt Suiche [(@msuiche)](https://twitter.com/msuiche). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](http://web.archive.org/web/20191203180235/https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)
 
 [2011] [Core Security Technologies] Nicolas Economou [(@nicoeconomou)](https://twitter.com/nicoeconomou). Hyper-V Vmbus persistent DoS vulnerability. [Link](https://www.coresecurity.com/content/hyperv-vmbus-persistent-dos-vulnerability)
 
@@ -52,7 +52,7 @@
 
 [2019] [Microsoft] Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)
 
-[2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Wrb-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)
+[2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Web-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)
 
 [2019] Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)
 
@@ -88,14 +88,14 @@ Hyper-V top level functional specification (web-version). [Link](https://docs.mi
 
 ### Headers from official Windows SDK\WDK
 
-hypervdevicevirtualization.h (WDK)
-vmsavedstatedump.h
-vmsavedstatedumpdefs.h
-WinHvEmulation.h
-WinHvPlatform.h
-WinHvPlatformDefs.h
-wmcontainer.h
-Wmcontainer.idl
+- hypervdevicevirtualization.h (WDK)
+- vmsavedstatedump.h
+- vmsavedstatedumpdefs.h
+- WinHvEmulation.h
+- WinHvPlatform.h
+- WinHvPlatformDefs.h
+- wmcontainer.h
+- Wmcontainer.idl
 
 ## VBS\VSM reseaches
 
