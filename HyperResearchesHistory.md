@@ -160,8 +160,6 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).
 
-[2018] Windows Hypervisor Platform API for Rust. [Link](https://crates.io/crates/libwhp)
-
 [2018] Matt Suiche. LiveCloudKd [(@msuiche)](https://twitter.com/msuiche). [Link](https://github.com/comaeio/LiveCloudKd)
 
 [2019] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)
