@@ -78,6 +78,8 @@
 
 [2021] Alex Ilgayev [(@_alex_il_)](https://twitter.com/_alex_il_). Playing in the Microsoft Windows Sandbox. [Link](https://research.checkpoint.com/2021/playing-in-the-windows-sandbox/)
 
+[2021] [(@_xeroxz)](https://twitter.com/_xeroxz). Voyager - A Hyper-V Hacking Framework. [Link](https://back.engineering/20/04/2021/)
+
 
 ## MSDN sources
 
