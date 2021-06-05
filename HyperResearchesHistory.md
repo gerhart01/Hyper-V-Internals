@@ -80,7 +80,9 @@
 
 [2021] [(@_xeroxz)](https://twitter.com/_xeroxz). Voyager - A Hyper-V Hacking Framework. [Link](https://back.engineering/20/04/2021/). 
 
-[2021] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). CVE-2021-28476: a guest-to-host "Microsoft Hyper-V Remote Code Execution Vulnerability" in vmswitch.sys. [Link](https://github.com/0vercl0k/CVE-2021-28476)
+[2021] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). CVE-2021-28476: a guest-to-host "Microsoft Hyper-V Remote Code Execution Vulnerability" in vmswitch.sys (PoC). [Link](https://github.com/0vercl0k/CVE-2021-28476)
+
+[2021] Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices (video and slides).[Link](https://www.sstic.org/2021/presentation/hyntrospect_a_fuzzer_for_hyper-v_devices/)
 
 [2021] Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V: Multiple Vulnerabilities in vmswitch.sys (CVE-2021-28476) [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2021-001/)
 
@@ -188,4 +190,4 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2020] [(@_xeroxz)](https://twitter.com/_xeroxz) Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel). [Link](https://githacks.org/xerox/voyager)
 
-[2021] [(@Didu)](https://twitter.com/0xdidu). Hyntrospect. This tool is a coverage-guided fuzzer targeting Hyper-V emulated devices (in the userland of Hyper-V root partition). [Link](https://github.com/googleprojectzero/Hyntrospect)
+[2021] Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect. This tool is a coverage-guided fuzzer targeting Hyper-V emulated devices (in the userland of Hyper-V root partition). [Link](https://github.com/googleprojectzero/Hyntrospect)
