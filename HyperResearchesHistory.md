@@ -181,6 +181,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 * ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
 * IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
 * HypervCpuidInfo.h. Get Hyper-V CPUIDs information [Link](https://gist.github.com/BehroozAbbassi/8e07bae41b0b037a55259c19d00aa458) 
+* VmwpMonitor. The VmwpMonitor is a DLL that must be injected to the vmwp.exe process to monitor the IO operations on the Emulated Devices between the Guest VM and the VM worker process. [Link](https://github.com/BehroozAbbassi/VmwpMonitor)
 
 [2020] [(@commial)](https://twitter.com/commial). Configure Qemu-KVM for debugging SecureKernel [Link](https://github.com/commial/experiments/tree/master/debugging-secure-kernel)
 
