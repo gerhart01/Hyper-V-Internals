@@ -4,7 +4,7 @@ Internals information about Hyper-V
 
 Hyper-V research history list [Link](HyperResearchesHistory.md)
 
-Hyper-V components list (Windows 10) [Link](Hyper-V%20%components.pdf)
+Hyper-V components list (Windows 10) [Link](Hyper-V%20components.pdf)
 
 Vid dll evolution folder - vid.dll library evolution history
 
