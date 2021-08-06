@@ -93,7 +93,7 @@
 [29.07.2021] [Quarkslab] Salma el Mohib[(@lychnis42)(https://twitter.com/lychnis42)]. A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. [Link](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html). Script from article [Link](https://github.com/quarkslab/windbg-vtl) 
 
 [04.08.2021] [Guardicore] Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), [SafeBreach] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL1 – Our Journey of Fuzzing Hyper-V and Discovering a Critical 0-Day. [Link](https://www.guardicore.com/labs/hafl1-our-journey-of-fuzzing-hyper-v-and-discovering-a-critical-0-day/)
-* Hyper-V’s virtual switch (vmswitch.sys). [Link](https://github.com/SB-GC-Labs/hAFL1)	
+* Hyper-V’s virtual switch (vmswitch.sys) fuzzer. [Link](https://github.com/SB-GC-Labs/hAFL1)	
 * Black Hat 2021 presentation. [Link](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Hafl1-Our-Journey-Of-Fuzzing-Hyper-V-And-Discovering-A-0-Day.pdf)
 
 
