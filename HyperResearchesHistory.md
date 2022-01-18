@@ -1,4 +1,4 @@
-# Hyper-V internals researches (2006-2021)
+# Hyper-V internals researches (2006-2022)
 
 [23.05.2006] [Microsoft] Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)
 
@@ -216,4 +216,4 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2021] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL2 is a kAFL-based hypervisor fuzzer. [Link](https://github.com/SafeBreach-Labs/hAFL2)
 
-[2022] Abdelhamid Naceri. Reverse RDP RCE example [(@KLINIX5)](https://twitter.com/KLINIX5). [Link](https://github.com/klinix5/ReverseRDP_RCE)
+[2022] Abdelhamid Naceri [(@KLINIX5)](https://twitter.com/KLINIX5). Reverse RDP RCE example. [Link](https://github.com/klinix5/ReverseRDP_RCE)
