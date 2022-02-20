@@ -164,9 +164,11 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)
 
+[17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)
+
 ## Hyper-V related open source utilities, scripts. 
 
-[2013-2021] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
+[2013-2022] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files to "Hyper-V debugging for beginners (2013)" article. [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
 * Files to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)
 * Files to "Hyper-V internals (2015)" article. [Link](https://drive.google.com/file/d/0B8WEjIxRncDRUVFLWGhXN0xDMHc)
@@ -181,7 +183,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
 	 * Script for getting some information from Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
 	 * Script for some Hyper-V hypercalls codes and names automatic extraction. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
-
+	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)	
+		
 [2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
 
 [2016] Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
@@ -199,8 +202,8 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 * What the fuzz. Cross-platform snapshot-based fuzzer designed for attacking user and or kernel-mode targets running on Microsoft Windows.  Windows Hypervisor Platform APIs is supported [Link](https://github.com/0vercl0k/wtf)
 
 [2019, 2021] Behrooz Abbassi [(@BehroozAbbassi)](https://twitter.com/BehroozAbbassi) 
-* ia32_msr_decoder.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
-* IA32_VMX_Helper.py. [Link](https://github.com/RceNinja/Re-Scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
+* ia32_msr_decoder.py. [Link](https://github.com/BehroozAbbassi/hyperv-research-scripts/blob/master/scripts/IA32-MSR-Decoder/ia32_msr_decoder.py)
+* IA32_VMX_Helper.py. [Link](https://github.com/BehroozAbbassi/hyperv-research-scripts/blob/master/scripts/IA32-VMX-Helper/IA32_VMX_Helper.py)
 * HypervCpuidInfo.h. Get Hyper-V CPUIDs information [Link](https://gist.github.com/BehroozAbbassi/8e07bae41b0b037a55259c19d00aa458) 
 * VmwpMonitor. The VmwpMonitor is a DLL that must be injected to the vmwp.exe process to monitor the IO operations on the Emulated Devices between the Guest VM and the VM worker process. [Link](https://github.com/BehroozAbbassi/VmwpMonitor)
 
