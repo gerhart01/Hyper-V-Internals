@@ -46,15 +46,15 @@
 
 [27.01.2019] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Writing a Hyper-V “Bridge” for Fuzzing — Part 2 : Hypercalls & MDLs. [Link](http://web.archive.org/web/20191024140329/http://www.alex-ionescu.com/?p=471)
 
-[2019] [Microsoft] Fuzzing para-virtualized devices in Hyper-V. [Link](https://blogs.technet.microsoft.com/srd/2019/01/28/fuzzing-para-virtualized-devices-in-hyper-v/)
+[28.01.2019] [Microsoft] Fuzzing para-virtualized devices in Hyper-V. [Link](https://blogs.technet.microsoft.com/srd/2019/01/28/fuzzing-para-virtualized-devices-in-hyper-v/)
 
-[2019] Amardeep Chana. Ventures into Hyper-V - Fuzzing hypercalls. [Link](https://labs.mwrinfosecurity.com/blog/ventures-into-hyper-v-part-1-fuzzing-hypercalls)
+[15.02.2019] Amardeep Chana. Ventures into Hyper-V - Fuzzing hypercalls. [Link](https://labs.mwrinfosecurity.com/blog/ventures-into-hyper-v-part-1-fuzzing-hypercalls)
 
-[2019] [Microsoft] Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)
+[15.02.2019] [Microsoft] Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)
 
-[2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Web-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)
+[25.03.2019] Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Web-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)
 
-[2019] [Microsoft] Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)
+[08.08.2019] [Microsoft] Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)
 
 [04.09.2019] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. Guest OS memory access. [Link](https://www.securitylab.ru/contest/500796.php). [10.09.2019 - English version link](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)
 
@@ -158,9 +158,9 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2020] Andrea Allievi [(@aall86)](https://twitter.com/aall86). Introducing Kernel Data Protection, a new platform security technology for preventing data corruption. [Link](https://www.microsoft.com/security/blog/2020/07/08/introducing-kernel-data-protection-a-new-platform-security-technology-for-preventing-data-corruption/)
 
-[2020] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). Secure Pool Internals : Dynamic KDP Behind The Hood. [Link](https://windows-internals.com/secure-pool)
+[12.07.2020] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). Secure Pool Internals : Dynamic KDP Behind The Hood. [Link](https://windows-internals.com/secure-pool)
 
-[2020] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar), Daniel King [(@long123king)](https://twitter.com/long123king). Breaking VSM by Attacking Secure Kernel. Hardening Secure Kernel through Offensive Research. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2020_08_BlackHatUSA/Breaking_VSM_by_Attacking_SecureKernel.pdf)
+[04.08.2020] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar), Daniel King [(@long123king)](https://twitter.com/long123king). Breaking VSM by Attacking Secure Kernel. Hardening Secure Kernel through Offensive Research. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2020_08_BlackHatUSA/Breaking_VSM_by_Attacking_SecureKernel.pdf)
 
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)
 
