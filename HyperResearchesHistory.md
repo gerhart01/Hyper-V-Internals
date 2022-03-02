@@ -90,7 +90,7 @@
 
 [28.07.2021] [Guardicore] Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), [SafeBreach] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). Critical 9.9 Vulnerability In Hyper-V Allowed Attackers To Exploit Azure [Link](https://www.guardicore.com/labs/critical-vulnerability-in-hyper-v-allowed-attackers-to-exploit-azure/)
 
-[29.07.2021] [Quarkslab] Salma el Mohib[(@lychnis42)(https://twitter.com/lychnis42)]. A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. [Link](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html). Script from article [Link](https://github.com/quarkslab/windbg-vtl) 
+[29.07.2021] [Quarkslab] Salma el Mohib[(@lychnis42)](https://twitter.com/lychnis42). A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. [Link](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html). Script from article [Link](https://github.com/quarkslab/windbg-vtl) 
 
 [04.08.2021] [Guardicore] Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), [SafeBreach] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL1 – Our Journey of Fuzzing Hyper-V and Discovering a Critical 0-Day. [Link](https://www.guardicore.com/labs/hafl1-our-journey-of-fuzzing-hyper-v-and-discovering-a-critical-0-day/)
 * Hyper-V’s virtual switch (vmswitch.sys) fuzzer. [Link](https://github.com/SB-GC-Labs/hAFL1)	
