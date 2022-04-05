@@ -30,15 +30,15 @@
 
 [09.08.2017] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V sockets internals. [Link](https://xakep.ru/2017/08/09/hyper-v-internals). [English version link](https://hvinternals.blogspot.com/2017/09/hyperv-socket-internals.html)
 
-[2018] [Microsoft] Windows Sandbox. [Link](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849)
+[19.06.2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://interopevents.blob.core.windows.net/events/2018/Redmond/Day%202/Track%201/docs/917318-2_21_1130_State%20of%20Hyper-V%20API%20World.pdf)
 
-[2018] [Microsoft] Hyper-V HyperClear Mitigation for L1 Terminal Fault. [Link](https://techcommunity.microsoft.com/t5/Virtualization/Hyper-V-HyperClear-Mitigation-for-L1-Terminal-Fault/ba-p/382429). [Update](https://techcommunity.microsoft.com/t5/Virtualization/5-14-Hyper-V-HyperClear-Update/ba-p/566499)
-
-[2018] [Microsoft] Nicolas Joly [(@n_joly)](https://twitter.com/n_joly), Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). A Dive in to Hyper-V Architecture & Vulnerabilities. [Link](https://i.blackhat.com/us-18/Wed-August-8/us-18-Joly-Bialek-A-Dive-in-to-Hyper-V-Architecture-and-Vulnerabilities.pdf)
+[08.08.2018] [Microsoft] Nicolas Joly [(@n_joly)](https://twitter.com/n_joly), Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). A Dive in to Hyper-V Architecture & Vulnerabilities. [Link](https://i.blackhat.com/us-18/Wed-August-8/us-18-Joly-Bialek-A-Dive-in-to-Hyper-V-Architecture-and-Vulnerabilities.pdf)
 
 [09.08.2018] [Microsoft] Jordan Rabet [(@smealum)](https://twitter.com/smealum). Hardening Hyper-V through Offensive Security Research. CVE-2017-0075. [Link](https://i.blackhat.com/us-18/Thu-August-9/us-18-Rabet-Hardening-Hyper-V-Through-Offensive-Security-Research.pdf)
 
-[2018] [Microsoft] Benjamin Armstrong [(@vbenarmstrong)](https://twitter.com/vbenarmstrong). Hyper-V API Overview. [Link](https://yadi.sk/i/50-ADlmZ7HKq9Q)
+[14.08.2018] [Microsoft] Hyper-V HyperClear Mitigation for L1 Terminal Fault. [Link](https://techcommunity.microsoft.com/t5/Virtualization/Hyper-V-HyperClear-Mitigation-for-L1-Terminal-Fault/ba-p/382429). [Update](https://techcommunity.microsoft.com/t5/Virtualization/5-14-Hyper-V-HyperClear-Update/ba-p/566499)
+
+[18.12.2018] [Microsoft] Windows Sandbox. [Link](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849)
 
 [08.11.2018] [Microsoft] Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](https://www.powerofcommunity.net/poc2018/yunhai.pdf)
 
