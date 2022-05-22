@@ -130,46 +130,26 @@ Hyper-V top level functional specification (web-version). [Link](https://docs.mi
 I'm not specalized in VBS, which is only Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
 
 [2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](http://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)
-
 [2015] Guillaume C. Windows 10 VSM Présentation des nouveautés et implémentations. [Link](https://www.ossir.org/bretagne/supports/2015/201512/win10vsm.pdf)
-
 [2016] Rafal Wojtczuk. Analysis of the Attack Surface of Windows 10 Virtualization-Based Security]. [Presentation. ](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security.pdf)
 [Whitepaper](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security-wp.pdf)
-
 [2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link](https://blog.amossys.fr/virtualization-based-security-part1.html)
-
 [2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link](https://blog.amossys.fr/virtualization-based-security-part2.html)
-
 [2017] Hans Kristian Brendmo. Live forensics on the Windows 10 secure kernel. [Link](https://pdfs.semanticscholar.org/e275/cc28c5c8e8e158c45e5e773d0fa3da01e118.pdf)
-
 [2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](http://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)
-
 [2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). VBS and VSM Internals. BlueHat IL 2018. [Link](https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)
-
 [2019] Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski). Interfaces Virtual Secure Mode: Protections of Communication. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/milenkoski_issrew_signed.pdf)
-
 [2019] Dominik Phillips, Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski). Virtual Secure Mode: Initialization. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/vsm_init_signed.pdf)
-
 [2019] Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski). Virtual Secure Mode: Communication Interfaces. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/vsm_communication_signed.pdf)
-
 [2019] Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski). Virtual Secure Mode: Architecture Overview. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/vsm_architecture_signed.pdf)
-
 [2019] Lukas Beierlieb, Lukas Ifflander, Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski), Charles F. Goncalves, Nuno Antunes, Samuel Kounev. Towards Testing the Software Aging Behavior of Hypervisor Hypercall Interfaces. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/milenkoski_issrew_signed.pdf)
-
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 6: Virtual Secure Mode. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage6_Virtual_Secure_Mode.pdf?__blob=publicationFile&v=2)
-
 [2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)
-
 [2020] Andrea Allievi [(@aall86)](https://twitter.com/aall86). Introducing Kernel Data Protection, a new platform security technology for preventing data corruption. [Link](https://www.microsoft.com/security/blog/2020/07/08/introducing-kernel-data-protection-a-new-platform-security-technology-for-preventing-data-corruption/)
-
 [12.07.2020] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). Secure Pool Internals : Dynamic KDP Behind The Hood. [Link](https://windows-internals.com/secure-pool)
-
 [04.08.2020] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar), Daniel King [(@long123king)](https://twitter.com/long123king). Breaking VSM by Attacking Secure Kernel. Hardening Secure Kernel through Offensive Research. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2020_08_BlackHatUSA/Breaking_VSM_by_Attacking_SecureKernel.pdf)
-
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)
-
 [17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)
-
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)
 
 
