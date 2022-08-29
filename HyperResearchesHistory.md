@@ -20,7 +20,7 @@
 **[09.08.2018]** *[Microsoft]* Jordan Rabet [(@smealum)](https://twitter.com/smealum). Hardening Hyper-V through Offensive Security Research. CVE-2017-0075. [Link](https://i.blackhat.com/us-18/Thu-August-9/us-18-Rabet-Hardening-Hyper-V-Through-Offensive-Security-Research.pdf)  
 **[14.08.2018]** *[Microsoft]* Hyper-V HyperClear Mitigation for L1 Terminal Fault. [Link](https://techcommunity.microsoft.com/t5/Virtualization/Hyper-V-HyperClear-Mitigation-for-L1-Terminal-Fault/ba-p/382429). [Update](https://techcommunity.microsoft.com/t5/Virtualization/5-14-Hyper-V-HyperClear-Update/ba-p/566499)  
 **[18.12.2018]** *[Microsoft]* Windows Sandbox. [Link](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849)  
-**[08.11.2018]** *[Microsoft]* Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](https://www.powerofcommunity.net/poc2018/yunhai.pdf)  
+**[08.11.2018]** Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Appliation Guard. [Link](https://www.powerofcommunity.net/poc2018/yunhai.pdf)  
 **[10.12.2018]** *[Microsoft]* Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/)  
 **[27.01.2019]** Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Writing a Hyper-V “Bridge” for Fuzzing — Part 2 : Hypercalls & MDLs. [Link](http://web.archive.org/web/20191024140329/http://www.alex-ionescu.com/?p=471)  
 **[28.01.2019]** *[Microsoft]* Fuzzing para-virtualized devices in Hyper-V. [Link](https://blogs.technet.microsoft.com/srd/2019/01/28/fuzzing-para-virtualized-devices-in-hyper-v/)  
