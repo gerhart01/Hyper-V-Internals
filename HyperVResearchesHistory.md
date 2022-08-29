@@ -54,7 +54,7 @@
 **[04.01.2022]** Peter Hlavaty [(@rezer0dai)](https://twitter.com/rezer0dai). Bug Bounties and HyperV RCE Research (CVE-2020-17095). [Link](https://rezer0dai.github.io/biug-bounties/)   
 **[03.03.2022]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. [Slides](https://github.com/0xdidu/Presentations/blob/main/BHIL2022_Hyntrospect.pdf), [video](https://www.youtube.com/watch?v=kRG-W-HPQPI)  
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
-**[23.05.2022]** Connor McGarr [(@33y0re)]((https://twitter.com/33y0re)). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)   
+**[23.05.2022]** Connor McGarr [(@33y0re)]((https://twitter.com/33y0re)). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)     
 **[11.08.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface.[Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf) 
 
 
