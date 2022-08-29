@@ -54,7 +54,7 @@
 **[04.01.2022]** Peter Hlavaty [(@rezer0dai)](https://twitter.com/rezer0dai). Bug Bounties and HyperV RCE Research (CVE-2020-17095). [Link](https://rezer0dai.github.io/biug-bounties/)   
 **[03.03.2022]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. [Slides](https://github.com/0xdidu/Presentations/blob/main/BHIL2022_Hyntrospect.pdf), [video](https://www.youtube.com/watch?v=kRG-W-HPQPI)  
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
-**[23.05.2022]** Connor McGarr [(@33y0re)]((https://twitter.com/33y0re)). Exploit Development: No Code Execution? No Problem! Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
+**[23.05.2022]** Connor McGarr [(@33y0re)]((https://twitter.com/33y0re)). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
 
 
 [Microsoft] - research was made by employee of Hyper-V creators company
@@ -64,6 +64,8 @@
 Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)
 Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)
 Hyper-V top level functional specifications [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)
+
+Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)
 
