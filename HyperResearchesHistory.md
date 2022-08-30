@@ -62,9 +62,9 @@
 
 ## MSDN sources
 
-Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)
-Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)
-Hyper-V top level functional specifications [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)
+Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
+Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
+Hyper-V top level functional specifications [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)  
 
 Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)
 
