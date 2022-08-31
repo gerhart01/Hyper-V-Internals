@@ -44,9 +44,9 @@
 **[31.05.2021]** Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). CVE-2021-28476: a guest-to-host "Microsoft Hyper-V Remote Code Execution Vulnerability" in vmswitch.sys (PoC). [Link](https://github.com/0vercl0k/CVE-2021-28476)  
 **[02.06.2021]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices (video and slides).[Link](https://www.sstic.org/2021/presentation/hyntrospect_a_fuzzer_for_hyper-v_devices/)  
 **[02.06.2021]** Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V: Multiple Vulnerabilities in vmswitch.sys (CVE-2021-28476) [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2021-001/)  
-**[28.07.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), [SafeBreach] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). Critical 9.9 Vulnerability In Hyper-V Allowed Attackers To Exploit Azure [Link](https://www.guardicore.com/labs/critical-vulnerability-in-hyper-v-allowed-attackers-to-exploit-azure/)  
+**[28.07.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). Critical 9.9 Vulnerability In Hyper-V Allowed Attackers To Exploit Azure [Link](https://www.guardicore.com/labs/critical-vulnerability-in-hyper-v-allowed-attackers-to-exploit-azure/)  
 **[29.07.2021]** Salma el Mohib[(@lychnis42)](https://twitter.com/lychnis42). A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. [Link](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html). Script from article [Link](https://github.com/quarkslab/windbg-vtl)   
-**[04.08.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), [SafeBreach] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL1 – Our Journey of Fuzzing Hyper-V and Discovering a Critical 0-Day. [Link](https://www.guardicore.com/labs/hafl1-our-journey-of-fuzzing-hyper-v-and-discovering-a-critical-0-day/)  
+**[04.08.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL1 – Our Journey of Fuzzing Hyper-V and Discovering a Critical 0-Day. [Link](https://www.guardicore.com/labs/hafl1-our-journey-of-fuzzing-hyper-v-and-discovering-a-critical-0-day/)  
 * Hyper-V’s virtual switch (vmswitch.sys) fuzzer. [Link](https://github.com/SB-GC-Labs/hAFL1)	  
 * Black Hat 2021 presentation. [Link](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Hafl1-Our-Journey-Of-Fuzzing-Hyper-V-And-Discovering-A-0-Day.pdf)  
 **[04.08.2021]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Chuanjian Lia. Mobius Band: Explore Hyper-V Attack Interface through Vulnerabilities Internals. [Blackhat 2021 Presentation](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Mobius-Band-Explore-Hyper-V-Attack-Interface-Through-Vulnerabilities-Internals.pdf). [Slides](https://github.com/howknows/hypervvulners_bhusa2021/blob/main/2021-BHUSA-Mobius_Band_Explore_Hyper-V_Attack_Interface_through_Vulnerabilities_Internals-Hong.pptx). [Video](https://www.youtube.com/watch?v=7VI-_r_jrfQ) 
@@ -85,14 +85,14 @@ Host Compute Network (HCN) service API for VMs and containers: [Link](https://gi
 
 ## VBS\VSM reseaches
 
-I'm not specalized in VBS, which is only Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
+I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
 
 [2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](http://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)  
 [2015] Guillaume C. Windows 10 VSM Présentation des nouveautés et implémentations. [Link](https://www.ossir.org/bretagne/supports/2015/201512/win10vsm.pdf)  
 [2016] Rafal Wojtczuk. Analysis of the Attack Surface of Windows 10 Virtualization-Based Security]. [Presentation. ](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security.pdf)
 [Whitepaper](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security-wp.pdf)  
-[2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link](https://blog.amossys.fr/virtualization-based-security-part1.html)  
-[2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/@0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link](https://blog.amossys.fr/virtualization-based-security-part2.html)  
+[2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link](https://blog.amossys.fr/virtualization-based-security-part1.html)  
+[2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link](https://blog.amossys.fr/virtualization-based-security-part2.html)  
 [2017] Hans Kristian Brendmo. Live forensics on the Windows 10 secure kernel. [Link](https://pdfs.semanticscholar.org/e275/cc28c5c8e8e158c45e5e773d0fa3da01e118.pdf)  
 [2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](http://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)  
 [2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). VBS and VSM Internals. BlueHat IL 2018. [Link](https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)  
@@ -158,7 +158,7 @@ I'm not specalized in VBS, which is only Hyper-V based security mechanism, there
 
 [2020] Matt Miller [(@epakskape)](https://twitter.com/epakskape) WHVP API based NOP-generator. [Link](https://github.com/epakskape/whpexp)
 
-[2020] [(@_xeroxz)](https://twitter.com/_xeroxz) Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel). [Link](https://githacks.org/xerox/voyager)
+[2020] [(@_xeroxz)](https://twitter.com/_xeroxz) Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel). [Link](https://git.back.engineering/_xeroxz/Voyager)
 
 [2021] Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect. This tool is a coverage-guided fuzzer targeting Hyper-V emulated devices (in the userland of Hyper-V root partition). [Link](https://github.com/googleprojectzero/Hyntrospect)
 
