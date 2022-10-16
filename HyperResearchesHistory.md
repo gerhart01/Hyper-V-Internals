@@ -28,16 +28,25 @@
 **[15.02.2019]** *[Microsoft]* Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)  
 **[25.03.2019]** Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv) [Web-archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  
 **[08.08.2019]** *[Microsoft]* Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)  
-**[04.09.2019]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. Guest OS memory access. [Link](https://www.securitylab.ru/contest/500796.php). [10.09.2019 - English version link](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)  
+**[04.09.2019]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. Guest OS memory access   
+* [Russian version](https://www.securitylab.ru/contest/500796.php)   
+* [English version](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html) [10.09.2019]
+
 **[11.09.2019]** *[Microsoft]* Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). Attacking the VM Worker Process. [Link](https://msrc-blog.microsoft.com/2019/09/11/attacking-the-vm-worker-process/)  
 **[14.05.2020]** Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hyper-V Linux integration services description. [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)  
 **[04.06.2020]** Damien Aumaitre. Fuzz and Profit with WHVP. [Link](https://www.sstic.org/media/SSTIC2020/SSTIC-actes/fuzz_and_profit_with_whvp/SSTIC2020-Slides-fuzz_and_profit_with_whvp-aumaitre.pdf)  
-**[19.06.2020]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. [Link](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html).[Russian version - 24.06.2020](https://xakep.ru/2020/06/24/hyper-v-exo/)   
+**[19.06.2020]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. EXO partition memory access. 
+* [English version](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html)  
+* [Russian version](https://xakep.ru/2020/06/24/hyper-v-exo/) [24.06.2020]  
+
 **[03.09.2020]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890). [Link](https://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)  
 **[10.09.2020]** Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Stack Overflow Denial of Service (CVE-2020-0751). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001)  
 **[10.09.2020]** Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference (CVE-2020-0904). [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003)  
 **[14.11.2020]** Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Hypervisor vulnerability research (slides 35-60). [Link](https://alisa.sh/slides/HypervisorVulnerabilityResearch2020.pdf)  
-**[25.12.2020]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition).[11.01.2021][Link](https://hvinternals.blogspot.com/2021/01/hyper-v-debugging-for-beginners-2nd.html). [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/)  
+**[25.12.2020]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners (2nd edition).
+* [Russian version](https://xakep.ru/2020/12/25/hyperv-hyperdebug/)  
+* [English version](https://hvinternals.blogspot.com/2021/01/hyper-v-debugging-for-beginners-2nd.html) [11.01.2021] 
+       
 **[15.02.2021]** Alisa Shevchenko [(@alisaesage)](https://twitter.com/alisaesage). Microsoft Hyper-V Virtual Network Switch VmsMpCommonPvtSetRequestCommon Out of Bounds Read. [Link](https://zerodayengineering.com/research/hyper-v-vmswitch-oobr.html)  
 **[11.03.2021]** Alex Ilgayev [(@_alex_il_)](https://twitter.com/_alex_il_). Playing in the Microsoft Windows Sandbox. [Link](https://research.checkpoint.com/2021/playing-in-the-windows-sandbox/)  
 **[20.04.2021]** [(@_xeroxz)](https://twitter.com/_xeroxz). Voyager - A Hyper-V Hacking Framework. [Link](https://back.engineering/20/04/2021/)   
@@ -45,15 +54,25 @@
 **[02.06.2021]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices (video and slides).[Link](https://www.sstic.org/2021/presentation/hyntrospect_a_fuzzer_for_hyper-v_devices/)  
 **[02.06.2021]** Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V: Multiple Vulnerabilities in vmswitch.sys (CVE-2021-28476) [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2021-001/)  
 **[28.07.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). Critical 9.9 Vulnerability In Hyper-V Allowed Attackers To Exploit Azure [Link](https://www.guardicore.com/labs/critical-vulnerability-in-hyper-v-allowed-attackers-to-exploit-azure/)  
-**[29.07.2021]** Salma el Mohib[(@lychnis42)](https://twitter.com/lychnis42). A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. [Link](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html). Script from article [Link](https://github.com/quarkslab/windbg-vtl)   
+**[29.07.2021]** Salma el Mohib[(@lychnis42)](https://twitter.com/lychnis42). A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. 
+* [Article](https://blog.quarkslab.com/a-virtual-journey-from-hardware-virtualization-to-hyper-vs-virtual-trust-levels.html) 
+* [Script from article](https://github.com/quarkslab/windbg-vtl)   
+
 **[04.08.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL1 – Our Journey of Fuzzing Hyper-V and Discovering a Critical 0-Day. [Link](https://www.guardicore.com/labs/hafl1-our-journey-of-fuzzing-hyper-v-and-discovering-a-critical-0-day/)  
 * Hyper-V’s virtual switch (vmswitch.sys) fuzzer. [Link](https://github.com/SB-GC-Labs/hAFL1)	  
 * Black Hat 2021 presentation. [Link](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Hafl1-Our-Journey-Of-Fuzzing-Hyper-V-And-Discovering-A-0-Day.pdf)  
 
-**[04.08.2021]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Chuanjian Lia. Mobius Band: Explore Hyper-V Attack Interface through Vulnerabilities Internals. [Blackhat 2021 Presentation](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Mobius-Band-Explore-Hyper-V-Attack-Interface-Through-Vulnerabilities-Internals.pdf). [Slides](https://github.com/howknows/hypervvulners_bhusa2021/blob/main/2021-BHUSA-Mobius_Band_Explore_Hyper-V_Attack_Interface_through_Vulnerabilities_Internals-Hong.pptx). [Video](https://www.youtube.com/watch?v=7VI-_r_jrfQ)  
+**[04.08.2021]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Chuanjian Lia. Mobius Band: Explore Hyper-V Attack Interface through Vulnerabilities Internals. 
+* [Blackhat 2021 Presentation](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Mobius-Band-Explore-Hyper-V-Attack-Interface-Through-Vulnerabilities-Internals.pdf)  
+* [Slides](https://github.com/howknows/hypervvulners_bhusa2021/blob/main/2021-BHUSA-Mobius_Band_Explore_Hyper-V_Attack_Interface_through_Vulnerabilities_Internals-Hong.pptx)  
+* [Video](https://www.youtube.com/watch?v=7VI-_r_jrfQ)    
+
 **[02.09.2021]** *[Microsoft]* Xinyang Ge, Ben Niu, Robert Brotzman, Yaohui Chen, HyungSeok Han, Patrice Godefroid, Weidong Cui. HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs.[Link](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/hyperfuzzer-ccs21.pdf)  
 **[04.01.2022]** Peter Hlavaty [(@rezer0dai)](https://twitter.com/rezer0dai). Bug Bounties and HyperV RCE Research (CVE-2020-17095). [Link](https://rezer0dai.github.io/biug-bounties/)   
-**[03.03.2022]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. [Slides](https://github.com/0xdidu/Presentations/blob/main/BHIL2022_Hyntrospect.pdf), [video](https://www.youtube.com/watch?v=kRG-W-HPQPI)  
+**[03.03.2022]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. 
+* [Slides](https://github.com/0xdidu/Presentations/blob/main/BHIL2022_Hyntrospect.pdf)   
+* [Video](https://www.youtube.com/watch?v=kRG-W-HPQPI)  
+
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
 **[23.05.2022]** Connor McGarr [(@33y0re)](https://twitter.com/33y0re). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
 **[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface.[Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf) 
@@ -110,6 +129,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)  
 [17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)  
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)  
+[08.09.2022] James Forshaw [(@tiraniddo)][https://twitter.com/tiraniddo]. Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
 
 
 ## Hyper-V related open source utilities, scripts. 

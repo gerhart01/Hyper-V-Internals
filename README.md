@@ -2,7 +2,7 @@
 
 Internals information about Hyper-V
 
-Hyper-V research history list [Link](HyperResearchesHistory.md)
+Hyper-V research history list [Link](HyperVResearchesHistory.md)
 
 Hyper-V components list (Windows 10) [Link](Hyper-V%20components.pdf)
 
