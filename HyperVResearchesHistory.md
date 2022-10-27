@@ -150,8 +150,8 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 	 * Script for some Hyper-V hypercalls codes and names automatic extraction. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
 	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
 	 * Scripts for Hyper-V sockets analysis (was written for Hyper-V sockets internals article)
-	 	* [AfdEndpointListHead parsing](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
-		* [AfdTlTransportListHead parsing](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
+	 	* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
+		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
 		
 [2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
 
