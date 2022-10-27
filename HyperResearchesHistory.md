@@ -128,7 +128,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)  
 [17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)  
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)  
-[08.09.2022] James Forshaw [(@tiraniddo)][https://twitter.com/tiraniddo]. Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
+[08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
 
 
 ## Hyper-V related open source utilities, scripts. 
@@ -150,8 +150,8 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 	 * Script for some Hyper-V hypercalls codes and names automatic extraction. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
 	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
 	 * Scripts for Hyper-V sockets analysis (was written for Hyper-V sockets internals article)
-	 	* [AfdEndpointListHead parsing](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
-		* [AfdTlTransportListHead parsing](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
+	 	* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
+		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
 		
 [2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
 

@@ -128,7 +128,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [01.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 1 – SKPG Initialization. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/)  
 [17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)  
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)  
-[08.09.2022] James Forshaw [(@tiraniddo)][https://twitter.com/tiraniddo]. Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
+[08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
 
 
 ## Hyper-V related open source utilities, scripts. 
