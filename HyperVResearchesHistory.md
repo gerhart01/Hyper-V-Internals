@@ -131,7 +131,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
 
 
-## Hyper-V related open source utilities, scripts. 
+## Hyper-V related free and open source utilities, scripts 
 
 [2013-2022] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files to "Hyper-V debugging for beginners (2013)" article. [Link](http://yadi.sk/d/jJJGTL7xCuFAV)
