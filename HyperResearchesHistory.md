@@ -130,7 +130,6 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)  
 [08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)
 
-
 ## Hyper-V related free and open source utilities, scripts 
 
 [2013-2022] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
@@ -144,14 +143,14 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Hypercalls extractor - tool for getting hypercalls form native binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)  
 * Hyper-V integration plugin for MemProcFs by [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). Plugin description from [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd)  
 * Hyper-V integration plugin for volatiltiy [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/1.0.20221109/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20221109.zip)  
-* Scripts for Hyper-V reseaching. [Link](https://github.com/gerhart01/Hyper-V-scripts)
-	 * Create hypercalls table in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
-	 * Parse VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
-	 * Display VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
+* Scripts for Hyper-V reseaching: [Link](https://github.com/gerhart01/Hyper-V-scripts)
+	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
+	 * Script for parsing VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
+	 * Script for displaying VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
 	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
 	 * Script for getting some information from Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
-	 * Script for some Hyper-V hypercalls codes and names automatic extraction. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
-	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
+	 * Script for some Hyper-V hypercalls codes and names automatic extraction on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
+	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
 	 * Scripts for Hyper-V sockets analysis (was written for Hyper-V sockets internals article)
 	 	* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
 		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
