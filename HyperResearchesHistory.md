@@ -51,7 +51,7 @@
 **[11.03.2021]** Alex Ilgayev [(@_alex_il_)](https://twitter.com/_alex_il_). Playing in the Microsoft Windows Sandbox. [Link](https://research.checkpoint.com/2021/playing-in-the-windows-sandbox/)  
 **[20.04.2021]** [(@_xeroxz)](https://twitter.com/_xeroxz). Voyager - A Hyper-V Hacking Framework. [Link](https://back.engineering/20/04/2021/)   
 **[31.05.2021]** Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). CVE-2021-28476: a guest-to-host "Microsoft Hyper-V Remote Code Execution Vulnerability" in vmswitch.sys (PoC). [Link](https://github.com/0vercl0k/CVE-2021-28476)  
-**[02.06.2021]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices (video and slides).[Link](https://www.sstic.org/2021/presentation/hyntrospect_a_fuzzer_for_hyper-v_devices/)  
+**[02.06.2021]** Diane Dubois [(@0xdidu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices (video and slides).[Link](https://www.sstic.org/2021/presentation/hyntrospect_a_fuzzer_for_hyper-v_devices/)  
 **[02.06.2021]** Daniel Fernandez Kuehr [(@ergot86)](https://twitter.com/ergot86). Microsoft Hyper-V: Multiple Vulnerabilities in vmswitch.sys (CVE-2021-28476) [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2021-001/)  
 **[28.07.2021]** Ophir Harpaz [(@OphirHarpaz)](https://twitter.com/OphirHarpaz), Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). Critical 9.9 Vulnerability In Hyper-V Allowed Attackers To Exploit Azure [Link](https://www.guardicore.com/labs/critical-vulnerability-in-hyper-v-allowed-attackers-to-exploit-azure/)  
 **[29.07.2021]** Salma el Mohib[(@lychnis42)](https://twitter.com/lychnis42). A virtual journey: From hardware virtualization to Hyper-V's Virtual Trust Levels. 
@@ -69,13 +69,14 @@
 
 **[02.09.2021]** *[Microsoft]* Xinyang Ge, Ben Niu, Robert Brotzman, Yaohui Chen, HyungSeok Han, Patrice Godefroid, Weidong Cui. HyperFuzzer: An Efficient Hybrid Fuzzer for Virtual CPUs.[Link](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/hyperfuzzer-ccs21.pdf)  
 **[04.01.2022]** Peter Hlavaty [(@rezer0dai)](https://twitter.com/rezer0dai). Bug Bounties and HyperV RCE Research (CVE-2020-17095). [Link](https://rezer0dai.github.io/biug-bounties/)   
-**[03.03.2022]** Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. 
+**[03.03.2022]** Diane Dubois [(@0xdidu)](https://twitter.com/0xdidu). Hyntrospect: a fuzzer for Hyper-V devices. 
 * [Slides](https://github.com/0xdidu/Presentations/blob/main/BHIL2022_Hyntrospect.pdf)   
 * [Video](https://www.youtube.com/watch?v=kRG-W-HPQPI)  
 
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
 **[23.05.2022]** Connor McGarr [(@33y0re)](https://twitter.com/33y0re). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
-**[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface.[Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf) 
+**[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface. [Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf)
+**[14.12.2022]** Ben Barnea [(@nachoskrnl)](https://twitter.com/nachoskrnl). CVE-2022-37998 and CVE-2022-37973 (DoS Microsoft Defender Application Guard, Sandbox) description. [Link](https://www.akamai.com/blog/security-research/msrpc-lsm-cve-disturbing-hosts-rest) 
 
 [Microsoft] - research was made by employee of Hyper-V creators company
 
@@ -147,7 +148,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Scripts for Hyper-V reseaching: [Link](https://github.com/gerhart01/Hyper-V-scripts)
 	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/CreatemVmcallHandlersTable20H1.py)
 	 * Script for parsing VM_PROCESS_CONTEXT structure (pykd base). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py)
-	 * Script for displaying VMCS inside hvix64 (dynamic execution using WinDBG session). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
+	 * Script for displaying VMCS inside hvix64 (dynamic execution using WinDBG session in IDA PRO). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
 	 * Script for automatic Guest OS debugging configuring, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
 	 * Script for getting some information from Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
 	 * Script for some Hyper-V hypercalls codes and names automatic extraction on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
@@ -158,7 +159,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 		
 [2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
 
-[2016] Yuriy Bulygin [@c7zero](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
+[2016] Yuriy Bulygin [(@c7zero)](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
 
 [2018] Windows Hypervisor Platform API for Rust. [Link](https://crates.io/crates/libwhp)
 
@@ -186,10 +187,20 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2020] [(@_xeroxz)](https://twitter.com/_xeroxz) Hyper-V Hacking Framework For Windows 10 x64 (AMD & Intel). [Link](https://git.back.engineering/_xeroxz/Voyager)
 
-[2021] Diane Dubois [(@Didu)](https://twitter.com/0xdidu). Hyntrospect. This tool is a coverage-guided fuzzer targeting Hyper-V emulated devices (in the userland of Hyper-V root partition). [Link](https://github.com/googleprojectzero/Hyntrospect)
+[2021] Diane Dubois [(@0xdidu)](https://twitter.com/0xdidu). Hyntrospect. This tool is a coverage-guided fuzzer targeting Hyper-V emulated devices (in the userland of Hyper-V root partition). [Link](https://github.com/googleprojectzero/Hyntrospect)
 
 [2021] Peleg Hadar [(@peleghd)](https://twitter.com/peleghd). hAFL2 is a kAFL-based hypervisor fuzzer. [Link](https://github.com/SafeBreach-Labs/hAFL2)
 
 [2022] Abdelhamid Naceri [(@KLINIX5)](https://twitter.com/KLINIX5). Reverse RDP RCE example. [Link](https://github.com/klinix5/ReverseRDP_RCE)
 
 [2022] Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). NanaBox - open-source Hyper-V client based on Host Compute System API [Link](https://github.com/M2Team/NanaBox)
+
+[2023] Daniel Fernandoz Kuehr [(@ergot86)](https://twitter.com/ergot86). JS script for dumping hypervisor related structures (EPT, etc)(https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
+
+## Software and tools, working with Hyper-V
+
+Linux Integration Services (LIS)
+MemProcFs
+Powershell cmdlets
+Qemu (WHPX)
+Virtual Box
