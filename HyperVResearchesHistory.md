@@ -195,12 +195,4 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2022] Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). NanaBox - open-source Hyper-V client based on Host Compute System API [Link](https://github.com/M2Team/NanaBox)
 
-[2023] Daniel Fernandoz Kuehr [(@ergot86)](https://twitter.com/ergot86)
-
-## Software and tools, working with Hyper-V
-
-Linux Integration Services (LIS)
-MemProcFs
-Powershell cmdlets
-Qemu (WHPX)
-Virtual Box
+[2023] Daniel Fernandoz Kuehr [(@ergot86)](https://twitter.com/ergot86). JS script for dumping hypervisor related structures (EPT, etc)(https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
