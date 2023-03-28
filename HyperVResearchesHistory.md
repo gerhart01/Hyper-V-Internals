@@ -75,7 +75,7 @@
 
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
 **[23.05.2022]** Connor McGarr [(@33y0re)](https://twitter.com/33y0re). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
-**[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface. [Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf)
+**[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface. [Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf)  
 **[14.12.2022]** Ben Barnea [(@nachoskrnl)](https://twitter.com/nachoskrnl). CVE-2022-37998 and CVE-2022-37973 (DoS Microsoft Defender Application Guard, Sandbox) description. [Link](https://www.akamai.com/blog/security-research/msrpc-lsm-cve-disturbing-hosts-rest) 
 
 [Microsoft] - research was made by employee of Hyper-V creators company
