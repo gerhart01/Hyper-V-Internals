@@ -1,15 +1,16 @@
-- [Hyper-V internals researches (2006-2023)](#hyper-v-internals-researches-2006-2023)
-  - [ MSDN sources](#msdn-sources)
-    - [ Headers from official Windows SDK\\WDK](#headers-from-official-windows-sdkwdk)
-      - [ WDK](#wdk)
-      - [ SDK](#sdk)
-  - [ VBS\\VSM researches](#vbsvsm-researches)
-  - [ Hyper-V related free and open source utilities, scripts](#hyper-v-related-free-and-open-source-utilities-scripts)
-  - [ Software and tools, working with Hyper-V](#software-and-tools-working-with-hyper-v)
-  - [ Other sources, interesting links and Hyper-V related materials](#other-sources-interesting-links-and-hyper-v-related-materials)
+# Hyper-V internals researches history (2006-2023) <!-- omit in toc -->
 
+- [Hyper-V internals researches](#hyper-v-internals-researches)
+- [ MSDN sources](#msdn-sources)
+	- [ Headers from official Windows SDK\\WDK](#headers-from-official-windows-sdkwdk)
+		- [ WDK](#wdk)
+		- [ SDK](#sdk)
+- [ VBS\\VSM researches](#vbsvsm-researches)
+- [ Hyper-V related free and open source utilities, scripts](#hyper-v-related-free-and-open-source-utilities-scripts)
+- [ Software and tools, working with Hyper-V](#software-and-tools-working-with-hyper-v)
+- [ Other sources, interesting links and Hyper-V related materials](#other-sources-interesting-links-and-hyper-v-related-materials)
 
-# Hyper-V internals researches (2006-2023)
+# Hyper-V internals researches
 
 **[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
 **[01.08.2007]** *[Microsoft]* Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)  
@@ -32,7 +33,7 @@
 **[14.08.2018]** *[Microsoft]* Hyper-V HyperClear Mitigation for L1 Terminal Fault. [Link](https://techcommunity.microsoft.com/t5/Virtualization/Hyper-V-HyperClear-Mitigation-for-L1-Terminal-Fault/ba-p/382429). [Update](https://techcommunity.microsoft.com/t5/Virtualization/5-14-Hyper-V-HyperClear-Update/ba-p/566499)  
 **[18.12.2018]** *[Microsoft]* Windows Sandbox. [Link](https://techcommunity.microsoft.com/t5/Windows-Kernel-Internals/Windows-Sandbox/ba-p/301849)  
 **[08.11.2018]** Yunhai Zhang [(@_f0rgetting_)](https://twitter.com/_f0rgetting_). Dive Into Windows Defender Application Guard. [Link](https://www.powerofcommunity.net/poc2018/yunhai.pdf)  
-**[10.12.2018]** *[Microsoft]* Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/)  
+**[10.12.2018]** *[Microsoft]* Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). First Steps in Hyper-V Research. [Link](https://msrc.microsoft.com/blog/2018/12/first-steps-in-hyper-v-research/)  
 **[27.01.2019]** Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). Writing a Hyper-V “Bridge” for Fuzzing — Part 2 : Hypercalls & MDLs. [Link](https://www.alex-ionescu.com/?p=471)  
 **[28.01.2019]** *[Microsoft]* Fuzzing para-virtualized devices in Hyper-V. [Link](https://blogs.technet.microsoft.com/srd/2019/01/28/fuzzing-para-virtualized-devices-in-hyper-v/)  
 **[15.02.2019]** Amardeep Chana. Ventures into Hyper-V - Fuzzing hypercalls. [Link](https://labs.mwrinfosecurity.com/blog/ventures-into-hyper-v-part-1-fuzzing-hypercalls)  
@@ -92,24 +93,24 @@
 
 [Microsoft] - research was made by employee of Hyper-V creators company
 
-## &nbsp;MSDN sources
+# &nbsp;MSDN sources
 
 Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
 Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
 Hyper-V top level functional specifications [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)  
 
-Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)
-Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)
+Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)  
+Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
 
-(Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)
+(Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)  
 
-### &nbsp;Headers from official Windows SDK\WDK  
-#### &nbsp;WDK
+## &nbsp;Headers from official Windows SDK\WDK  
+### &nbsp;WDK
 - hypervdevicevirtualization.h  
 - VmbusKernelModeClientLibApi.h  
 - pcivirt.h  
 
-#### &nbsp;SDK  
+### &nbsp;SDK  
 - vmsavedstatedump.h
 - vmsavedstatedumpdefs.h
 - WinHvEmulation.h
@@ -118,7 +119,7 @@ Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-c
 - wmcontainer.h
 - Wmcontainer.idl
 
-## &nbsp;VBS\VSM researches
+# &nbsp;VBS\VSM researches
 
 I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
 
@@ -147,13 +148,16 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)  
 [30.12.2022] Worawit Wang [(@sleepya_)](https://twitter.com/sleepya_). Code Execution against Windows HVCI.[Link](https://datafarm-cybersecurity.medium.com/code-execution-against-windows-hvci-f617570e9df0)  
 
-## &nbsp;Hyper-V related free and open source utilities, scripts 
+# &nbsp;Hyper-V related free and open source utilities, scripts 
 
 [2013-2023] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)
 * Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)
 * Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)
 * LiveCloudKd. [Link](https://github.com/gerhart01/LiveCloudKd)
+* LiveCloudKd SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdSdk)
+  * LiveCloudKd Python SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdPy)
+  * LiveCloudKd SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)
 * Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
 * CVE-2020-0890 PoC sources and binary (Windows Hyper-V Denial of Service Vulnerability) [Link](https://github.com/gerhart01/hyperv_local_dos_poc)
 * Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). Plugin description from [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd)     
@@ -218,7 +222,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [2023] Aryan Xyrem [(@Xyrem256)](https://twitter.com/Xyrem256). Hypercall - library that allows you to impersonate as Hyper-V and intercept hypercalls done by the Windows kernel. [Link](https://github.com/Xyrem/HyperDeceit)  
 
 
-## &nbsp;Software and tools, working with Hyper-V
+# &nbsp;Software and tools, working with Hyper-V
 
 
 Linux Integration Services (LIS). [Link](https://github.com/LIS)  
@@ -233,6 +237,6 @@ Virtual Box source code.
  * [Sources](https://www.virtualbox.org/wiki/Downloads)
  * [Module](https://www.virtualbox.org/browser/vbox/trunk/src/VBox/VMM/VMMR3/NEMR3Native-win.cpp)
 
- ## &nbsp;Other sources, interesting links and Hyper-V related materials
+ # &nbsp;Other sources, interesting links and Hyper-V related materials
 
 Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
