@@ -1,6 +1,6 @@
 # Hyper-V internals researches history (2006-2023) <!-- omit in toc -->
 
-- [Hyper-V internals researches](#hyper-v-internals-researches)
+- [ Hyper-V internals researches](#hyper-v-internals-researches)
 - [ MSDN sources](#msdn-sources)
 	- [ Headers from official Windows SDK\\WDK](#headers-from-official-windows-sdkwdk)
 		- [ WDK](#wdk)
@@ -10,7 +10,7 @@
 - [ Software and tools, working with Hyper-V](#software-and-tools-working-with-hyper-v)
 - [ Other sources, interesting links and Hyper-V related materials](#other-sources-interesting-links-and-hyper-v-related-materials)
 
-# Hyper-V internals researches
+# &nbsp;Hyper-V internals researches
 
 **[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
 **[01.08.2007]** *[Microsoft]* Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)  
@@ -160,7 +160,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
   * LiveCloudKd SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)
 * Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
 * CVE-2020-0890 PoC sources and binary (Windows Hyper-V Denial of Service Vulnerability) [Link](https://github.com/gerhart01/hyperv_local_dos_poc)
-* Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). Plugin description from [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd)     
+* Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://twitter.com/UlfFrisk). 
+  * Source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). 
+  * Plugin description from [@UlfFrisk](https://twitter.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20220914/leechcore_hyperv_plugin_14.09.2022.zip)     
 * LiveCloudKd EXDi plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
 * LiveCloudKd EXDi plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)
 * LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20230530/LiveCloudKd.v2.5.5.20220530-release.zip)
@@ -186,8 +188,8 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [2018] Windows Hypervisor Platform API for Rust. [Link](https://crates.io/crates/libwhp)
 
 [2018-2019] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). 
-	Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).
-	Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)
+* Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).  
+* Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)  
 
 [2018] Matt Suiche [(@msuiche)](https://twitter.com/msuiche). LiveCloudKd [Link](https://github.com/msuiche/LiveCloudKd)
 
