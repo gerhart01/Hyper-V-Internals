@@ -88,7 +88,7 @@
 **[21.04.2022]** VictorV [(@vv474172261)](https://twitter.com/vv474172261). Old School. New Story. Escape from Hyper-V by path traversal.[Slides](https://bit.ly/38AS9qd)  
 **[23.05.2022]** Connor McGarr [(@33y0re)](https://twitter.com/33y0re). Exploit Development. Living The Age of VBS, HVCI, and Kernel CFG.[Link](https://connormcgarr.github.io/hvci/)  
 **[11.08.2022]** Zhenhao Hon [(@rthhh17)](https://twitter.com/rthhh17), Ziming Zhang [(@ezrak1e)](https://twitter.com/ezrak1e). DirectX: The New Hyper-V Attack Surface. [Link](https://i.blackhat.com/USA-22/Thursday/US-22-Hong-DirectX-The-New-Hyper-V-Attack-Surface.pdf)  
-**[08.12.2022]** Andrew Ruddick	[(@arudd1ck)](https://twitter.com/arudd1ck), Rohit Mothe [(@rohitwas)](https://twitter.com/rohitwas). Exploring a New Class of Kernel Exploit Primitive. [Link](https://i.blackhat.com/EU-22/Thursday-Briefings/EU-22-Ruddick-Exploring-a-New-Class-of-Kernel-Exploit-Primitive.pdf)
+**[08.12.2022]** Andrew Ruddick	[(@arudd1ck)](https://twitter.com/arudd1ck), Rohit Mothe [(@rohitwas)](https://twitter.com/rohitwas). Exploring a New Class of Kernel Exploit Primitive. [Link](https://i.blackhat.com/EU-22/Thursday-Briefings/EU-22-Ruddick-Exploring-a-New-Class-of-Kernel-Exploit-Primitive.pdf)  
 **[14.12.2022]** Ben Barnea [(@nachoskrnl)](https://twitter.com/nachoskrnl). CVE-2022-37998 and CVE-2022-37973 (DoS Microsoft Defender Application Guard, Sandbox) description. [Link](https://www.akamai.com/blog/security-research/msrpc-lsm-cve-disturbing-hosts-rest)   
 **[16.05.2023]** Aryan Xyrem [(@Xyrem256)](https://twitter.com/Xyrem256). Exploiting Windows vulnerabilities with Hyper-V: A Hacker’s swiss army knife. [Link](https://reversing.info/posts/hyperdeceit/)  
 
