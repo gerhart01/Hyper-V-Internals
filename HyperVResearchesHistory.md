@@ -1,7 +1,7 @@
 # Hyper-V internals researches history (2006-2023) <!-- omit in toc -->
 
 - [ Hyper-V internals researches](#hyper-v-internals-researches)
-- [ MSDN sources](#msdn-sources)
+- [ MSDN and other Microsoft sources](#msdn-and-other-microsoft-sources)
 	- [ Headers from official Windows SDK\\WDK](#headers-from-official-windows-sdkwdk)
 		- [ WDK](#wdk)
 		- [ SDK](#sdk)
@@ -93,12 +93,15 @@
 **[16.05.2023]** Aryan Xyrem [(@Xyrem256)](https://twitter.com/Xyrem256). Exploiting Windows vulnerabilities with Hyper-V: A Hacker’s swiss army knife. [Link](https://reversing.info/posts/hyperdeceit/)   
 **[07.09.2023]** Francisco Falcon [(@fdfalcon)](https://twitter.com/fdfalcon). Debugging Windows Isolated User Mode (IUM) Processes. [Link](https://blog.quarkslab.com/debugging-windows-isolated-user-mode-ium-processes.html)  
 **[15.09.2023]** Matt Hand [(@matterpreter)](https://twitter.com/matterpreter). Hypervisor Detection with SystemHypervisorDetailInformation. [Link](https://medium.com/@matterpreter/hypervisor-detection-with-systemhypervisordetailinformation-26e44a57f80e)  
-**[08.10.2023]** [(@Pwndorei)](https://twitter.com/lkjuio3865) and [(@l0ch)](https://twitter.com/l0ch_pwn). Microsoft Hyper-V CVE-2018-0959 Analysis. Part1. [Link. Korean version](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2)  
-**[15.10.2023]** [(@Pwndorei)](https://twitter.com/lkjuio3865) and [(@l0ch)](https://twitter.com/l0ch_pwn). Microsoft Hyper-V CVE-2018-0959 Analysis. Part2. [Link. Korean version](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3)  
+**[08.10.2023]** [(@Pwndorei)](https://twitter.com/lkjuio3865) and [(@l0ch)](https://twitter.com/l0ch_pwn). Microsoft Hyper-V CVE-2018-0959 Analysis 
+  * [Part1 (Korean version)](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2)
+  * [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3)
+  * [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4)
+  * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5)	
 
 [Microsoft] - research was made by employee of Hyper-V creators company
 
-# &nbsp;MSDN sources
+# &nbsp;MSDN and other Microsoft sources
 
 Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
 Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
@@ -106,6 +109,7 @@ Hyper-V top level functional specifications [Link](https://github.com/MicrosoftD
 
 Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)  
 Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
+SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Windows SDK
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)  
 
