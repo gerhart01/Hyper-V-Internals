@@ -1,4 +1,4 @@
-# Hyper-V internals researches history (2006-2023) <!-- omit in toc -->
+# Hyper-V internals researches history (2006-2024) <!-- omit in toc -->
 
 - [ Hyper-V internals researches](#hyper-v-internals-researches)
 - [ MSDN and other Microsoft sources](#msdn-and-other-microsoft-sources)
@@ -97,7 +97,7 @@
   * [Part1 (Korean version)](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2)
   * [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3)
   * [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4)
-  * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5)  
+  * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5).[Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s)  
   
 **[20.11.2023]** Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC [Link](https://github.com/tandasat/CVE-2023-36427)  
 	
@@ -146,7 +146,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [13.02.2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link. Web Archive](http://web.archive.org/web/20201111203054/https://blog.amossys.fr/virtualization-based-security-part2.html)  
 [15.07.2017] Hans Kristian Brendmo. Live forensics on the Windows 10 secure kernel. [Link](https://pdfs.semanticscholar.org/e275/cc28c5c8e8e158c45e5e773d0fa3da01e118.pdf)  
 [27.06.2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](http://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)  
-[04.07.2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). VBS and VSM Internals. BlueHat IL 2018. [Link](https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)
+[04.07.2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). VBS and VSM Internals. BlueHat IL 2018. [Link](https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)  
 [14.03.2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 6: Virtual Secure Mode. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage6_Virtual_Secure_Mode.pdf?__blob=publicationFile&v=2)  
 [14.03.2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)    
 [22.05.2019] Dominik Phillips, Aleksandar Milenkoski [(@milenkowski)](https://twitter.com/milenkowski). Virtual Secure Mode: Initialization. [Link](https://github.com/ernw/Windows-Insight/blob/master/articles/VSM/vsm_init_signed.pdf)   
@@ -161,7 +161,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [17.01.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard – Secure Kernel Patch Guard: Part 2 – SKPG Extents. [Link](https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/)  
 [19.04.2022] Yarden Shafir [(@yarden_shafir)](https://twitter.com/yarden_shafir). HyperGuard Part 3 – More SKPG Extents. [Link](https://windows-internals.com/hyperguard-part-3-more-skpg-extents/)  
 [08.09.2022] James Forshaw [(@tiraniddo)](https://twitter.com/tiraniddo). Windows: Credential Guard KerbIumGetNtlmSupplementalCredential Information Disclosure. [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=2306)  
-[30.12.2022] Worawit Wang [(@sleepya_)](https://twitter.com/sleepya_). Code Execution against Windows HVCI.[Link](https://datafarm-cybersecurity.medium.com/code-execution-against-windows-hvci-f617570e9df0)
+[30.12.2022] Worawit Wang [(@sleepya_)](https://twitter.com/sleepya_). Code Execution against Windows HVCI. [Link](https://datafarm-cybersecurity.medium.com/code-execution-against-windows-hvci-f617570e9df0)  
+[15.01.2024] Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability disclosure
+(CVE-2024-21305). [Link](https://tandasat.github.io/blog/2024/01/15/CVE-2024-21305.html)
 
 # &nbsp;Hyper-V related free and open source utilities, scripts 
 
@@ -197,7 +199,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
   
 		
-[2014] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
+[2014, 2024] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). 
+* Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
+* Tool for recompiling Hyper-V manager. [Link](https://github.com/awakecoding/hyper-v-manager). [Description](https://awakecoding.com/posts/decompiling-hyper-v-manager-to-rebuild-it-from-source/)  
 
 [2016] Yuriy Bulygin [(@c7zero)](https://twitter.com/c7zero). Hyper-V VMBUS fuzzing. CHIPSEC: Platform Security Assessment Framework. [Link](https://github.com/chipsec/chipsec/tree/master/chipsec/modules/tools/vmm/hv)
 
