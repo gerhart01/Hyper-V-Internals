@@ -93,13 +93,13 @@
 **[16.05.2023]** Aryan Xyrem [(@Xyrem256)](https://twitter.com/Xyrem256). Exploiting Windows vulnerabilities with Hyper-V: A Hacker’s swiss army knife. [Link](https://reversing.info/posts/hyperdeceit/)   
 **[07.09.2023]** Francisco Falcon [(@fdfalcon)](https://twitter.com/fdfalcon). Debugging Windows Isolated User Mode (IUM) Processes. [Link](https://blog.quarkslab.com/debugging-windows-isolated-user-mode-ium-processes.html)  
 **[15.09.2023]** Matt Hand [(@matterpreter)](https://twitter.com/matterpreter). Hypervisor Detection with SystemHypervisorDetailInformation. [Link](https://medium.com/@matterpreter/hypervisor-detection-with-systemhypervisordetailinformation-26e44a57f80e)  
-**[08.10.2023]** [(@Pwndorei)](https://twitter.com/lkjuio3865) and [(@l0ch)](https://twitter.com/l0ch_pwn). Microsoft Hyper-V CVE-2018-0959 Analysis 
+**[08.10.2023]** [(@Pwndorei)](https://twitter.com/lkjuio3865) and [(@l0ch)](https://twitter.com/l0ch_pwn). Microsoft Hyper-V CVE-2018-0959 analysis 
   * [Part1 (Korean version)](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2)
   * [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3)
   * [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4)
-  * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5).[Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s)  
+  * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5). [Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s)  
   
-**[20.11.2023]** Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC [Link](https://github.com/tandasat/CVE-2023-36427)  
+**[20.11.2023]** Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC. [Link](https://github.com/tandasat/CVE-2023-36427)  
 	
 
 [Microsoft] - research was made by employee of Hyper-V creators company
