@@ -14,7 +14,7 @@
 
 **[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
 **[01.08.2007]** *[Microsoft]* Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)  
-**[19.01.2011]** Matt Suiche [(@msuiche)](https://twitter.com/msuiche). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link. Web Archive](http://web.archive.org/web/20191203180235/https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)  
+**[19.01.2011]** Matthieu Suiche [msuiche.com](https://www.msuiche.com). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)  
 **[14.06.2011]** Nicolas Economou [(@nicoeconomou)](https://twitter.com/nicoeconomou). Hyper-V Vmbus persistent DoS vulnerability. [Link](https://www.coresecurity.com/content/hyperv-vmbus-persistent-dos-vulnerability)  
 **[04.09.2013]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. [Link](https://www.securitylab.ru/contest/444112.php). [English version](https://hvinternals.blogspot.com/2015/10/hyper-v-debugging-for-beginners.html)  
 **[08.01.2014]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. Part 2 or half disclosure of MS13-092 (1-day exploit research). [Link](https://www.securitylab.ru/contest/448457.php). [English version](https://hvinternals.blogspot.com/2017/10/hyper-v-debugging-for-beginners-part-2.html)  
@@ -211,7 +211,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).  
 * Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)  
 
-[2018] Matt Suiche [(@msuiche)](https://twitter.com/msuiche). LiveCloudKd [Link](https://github.com/msuiche/LiveCloudKd)
+[2018] Matthieu Suiche [msuiche.com](https://www.msuiche.com). LiveCloudKd [Link](https://github.com/msuiche/LiveCloudKd)
 
 [2019, 2021] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). 
 * Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
@@ -266,3 +266,4 @@ Virtual Box source code.
  # &nbsp;Other sources, interesting links and Hyper-V related materials
 
 Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
+c
