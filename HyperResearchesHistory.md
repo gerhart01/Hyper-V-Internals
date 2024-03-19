@@ -14,7 +14,7 @@
 
 **[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
 **[01.08.2007]** *[Microsoft]* Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)  
-**[19.01.2011]** Matthieu Suiche [msuiche.com](https://www.msuiche.com). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)  
+**[19.01.2011]** Matthieu Suiche [(msuiche.com)](https://www.msuiche.com). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)  
 **[14.06.2011]** Nicolas Economou [(@nicoeconomou)](https://twitter.com/nicoeconomou). Hyper-V Vmbus persistent DoS vulnerability. [Link](https://www.coresecurity.com/content/hyperv-vmbus-persistent-dos-vulnerability)  
 **[04.09.2013]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. [Link](https://www.securitylab.ru/contest/444112.php). [English version](https://hvinternals.blogspot.com/2015/10/hyper-v-debugging-for-beginners.html)  
 **[08.01.2014]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V debugging for beginners. Part 2 or half disclosure of MS13-092 (1-day exploit research). [Link](https://www.securitylab.ru/contest/448457.php). [English version](https://hvinternals.blogspot.com/2017/10/hyper-v-debugging-for-beginners-part-2.html)  
@@ -106,13 +106,16 @@
 
 # &nbsp;MSDN and other Microsoft sources
 
-Managing Hyper-V hypervisor scheduler types. [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
-Hyper-V top level functional specification (web-version). [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
-Hyper-V top level functional specifications [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)  
+Managing Hyper-V hypervisor scheduler types: [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
+Hyper-V top level functional specification (web-version): [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
+Hyper-V top level functional specifications: [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)  
+Linux kernel for Hyper-V root partition [Link](https://lore.kernel.org/linux-hyperv/)  
+Windows Powershell modules: [Hyper-V sockets example](https://github.com/PowerShell/PowerShell/blob/master/src/System.Management.Automation/engine/remoting/common/RemoteSessionHyperVSocket.cs)  
 
 Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)  
 Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
 SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Windows SDK
+
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)  
 
@@ -211,7 +214,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).  
 * Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)  
 
-[2018] Matthieu Suiche [msuiche.com](https://www.msuiche.com). LiveCloudKd [Link](https://github.com/msuiche/LiveCloudKd)
+[2018] Matthieu Suiche [(msuiche.com)](https://www.msuiche.com). LiveCloudKd [Link](https://github.com/msuiche/LiveCloudKd)
 
 [2019, 2021] Axel Souchet [(@0vercl0k)](https://twitter.com/0vercl0k). 
 * Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)
@@ -252,7 +255,6 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 
 Linux Integration Services (LIS). [Link](https://github.com/LIS)  
-Microsoft Linux kernel for Hyper-V root partition [Link](https://lore.kernel.org/linux-hyperv/)  
 MemProcFS. [Link](https://github.com/ufrisk/MemProcFS)  
 
 Qemu source code (WHPX support module). 
@@ -266,4 +268,3 @@ Virtual Box source code.
  # &nbsp;Other sources, interesting links and Hyper-V related materials
 
 Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
-c
