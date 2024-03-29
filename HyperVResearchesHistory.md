@@ -6,7 +6,7 @@
 		- [ WDK](#wdk)
 		- [ SDK](#sdk)
 - [ VBS\\VSM researches](#vbsvsm-researches)
-- [ Hyper-V related free and open source utilities, scripts](#hyper-v-related-free-and-open-source-utilities-scripts)
+- [ Hyper-V related free and open source utilities, scripts, schemes](#hyper-v-related-free-and-open-source-utilities-scripts-schemes)
 - [ Software and tools, working with Hyper-V](#software-and-tools-working-with-hyper-v)
 - [ Other sources, interesting links and Hyper-V related materials](#other-sources-interesting-links-and-hyper-v-related-materials)
 
@@ -168,9 +168,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [15.01.2024] Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Hypervisor-Protected Code Integrity (HVCI) Security Feature Bypass Vulnerability disclosure
 (CVE-2024-21305). [Link](https://tandasat.github.io/blog/2024/01/15/CVE-2024-21305.html)
 
-# &nbsp;Hyper-V related free and open source utilities, scripts 
+# &nbsp;Hyper-V related free and open source utilities, scripts, schemes 
 
-[2013-2023] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
+[2013-2024] Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x)
 * Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)
 * Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)
 * Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)
@@ -200,6 +200,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 	 * Scripts for Hyper-V sockets analysis (scripts were written for Hyper-V sockets internals article)
 	 	* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
 		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
+* Hyper-V components scheme (Windows 11 23H2) [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)
   
 		
 [2014, 2024] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). 
