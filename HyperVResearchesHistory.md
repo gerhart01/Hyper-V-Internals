@@ -12,7 +12,7 @@
 
 # &nbsp;Hyper-V internals researches
 
-**[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](http://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
+**[23.05.2006]** *[Microsoft]* Jake Oshins. Device Virtualization Architecture. WinHec 2006. [Link](https://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  
 **[01.08.2007]** *[Microsoft]* Brandon Baker. Windows Server Virtualization and The Windows Hypervisor. [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)  
 **[19.01.2011]** Matthieu Suiche [(msuiche.com)](https://www.msuiche.com). LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011. [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf)  
 **[14.06.2011]** Nicolas Economou [(@nicoeconomou)](https://twitter.com/nicoeconomou). Hyper-V Vmbus persistent DoS vulnerability. [Link](https://www.coresecurity.com/content/hyperv-vmbus-persistent-dos-vulnerability)  
@@ -38,7 +38,7 @@
 **[28.01.2019]** *[Microsoft]* Fuzzing para-virtualized devices in Hyper-V. [Link](https://msrc.microsoft.com/blog/2019/01/fuzzing-para-virtualized-devices-in-hyper-v/)  
 **[15.02.2019]** Amardeep Chana. Ventures into Hyper-V - Fuzzing hypercalls. [Link](https://labs.withsecure.com/publications/ventures-into-hyper-v-part-1-fuzzing-hypercalls)  
 **[15.02.2019]** *[Microsoft]* Daniel King [(@long123king)](https://twitter.com/long123king), Shawn Denbow [@sdenbow](https://twitter.com/sdenbow). Growing Hypervisor 0day with Hyperseed. [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf)  
-**[25.03.2019]** Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) [Link.Web Archive](http://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  
+**[25.03.2019]** Bruce Dang [(@brucedang)](https://twitter.com/brucedang). Some notes on identifying exit and hypercall handlers in Hyper-V. [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) [Link.Web Archive](https://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  
 **[08.08.2019]** *[Microsoft]* Joe Bialek [(@josephbialek)](https://twitter.com/josephbialek). Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine. [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)  
 **[04.09.2019]** Arthur Khudyaev [(@gerhart_x)](https://twitter.com/gerhart_x). Hyper-V memory internals. Guest OS memory access   
 * [Russian version](https://www.securitylab.ru/contest/500796.php)   
@@ -98,10 +98,10 @@
   * [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3)
   * [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4)
   * [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5). [Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s)  
-  
-**[20.11.2023]** Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC. [Link](https://github.com/tandasat/CVE-2023-36427)  
-	
 
+**[20.11.2023]** Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC. [Link](https://github.com/tandasat/CVE-2023-36427)  
+**[12.05.2024]** [(@Pwndorei)](https://twitter.com/lkjuio3865). CVE-2023-36407 Analysis & Exploitation. [Link](https://hackyboiz.github.io/2024/05/12/pwndorei/newjeans-hyper-v-pt7/)
+	
 [Microsoft] - research was made by employee of Hyper-V creators company
 
 # &nbsp;MSDN and other Microsoft sources
@@ -138,17 +138,17 @@ SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Window
 
 I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
 
-[06.08.2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](http://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)  
+[06.08.2015] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu). BATTLE OF SKM AND IUM. [Link](https://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)  
 [10.12.2015] Guillaume C. Windows 10 VSM Présentation des nouveautés et implémentations. [Link](https://www.ossir.org/bretagne/supports/2015/201512/win10vsm.pdf)  
 [04.08.2016] Rafal Wojtczuk. Analysis of the Attack Surface of Windows 10 Virtualization-Based Security]
    
   * [Presentation](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security.pdf)  
   * [Whitepaper](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security-wp.pdf)
   
-[02.02.2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link. Web Archive](http://web.archive.org/web/20210619092627/http://blog.amossys.fr/virtualization-based-security-part1.html)  
-[13.02.2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link. Web Archive](http://web.archive.org/web/20201111203054/https://blog.amossys.fr/virtualization-based-security-part2.html)  
+[02.02.2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 1: The boot process. [Link. Web Archive](https://web.archive.org/web/20210619092627/http://blog.amossys.fr/virtualization-based-security-part1.html)  
+[13.02.2017] Adrien Chevalier [(@0x00_ach)](https://twitter.com/0x00_ach). Virtualization Based Security - Part 2: kernel communications. [Link. Web Archive](https://web.archive.org/web/20201111203054/https://blog.amossys.fr/virtualization-based-security-part2.html)  
 [15.07.2017] Hans Kristian Brendmo. Live forensics on the Windows 10 secure kernel. [Link](https://pdfs.semanticscholar.org/e275/cc28c5c8e8e158c45e5e773d0fa3da01e118.pdf)  
-[27.06.2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](http://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)  
+[27.06.2018] Alex Ionescu [(@aionescu)](https://twitter.com/aionescu), David Weston [@dwizzzleMSFT](https://twitter.com/dwizzzleMSFT). Inside the Octagon. Analyzing System Guard Runtime Attestation. OPCDE 2018. [Link](https://web.archive.org/web/20180808153201/http://alex-ionescu.com/Publications/OPCDE/octagon.pdf)  
 [04.07.2018] [Microsoft] Saar Amar [(@AmarSaar)](https://twitter.com/AmarSaar). VBS and VSM Internals. BlueHat IL 2018. [Link](https://github.com/saaramar/Publications/blob/master/BluehatIL_VBS_meetup/VBS_Internals.pdf)  
 [14.03.2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 6: Virtual Secure Mode. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage6_Virtual_Secure_Mode.pdf?__blob=publicationFile&v=2)  
 [14.03.2019] Federal office for information security (Germany). [(@BSI_Bund)](https://twitter.com/BSI_Bund). Work Package 7: Device Guard. [Link](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Cyber-Sicherheit/SiSyPHus/Workpackage7_Device_Guard.pdf?__blob=publicationFile&v=5)    
@@ -241,7 +241,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2022] Abdelhamid Naceri [(@KLINIX5)](https://twitter.com/KLINIX5). Reverse RDP RCE example. [Link](https://github.com/klinix5/ReverseRDP_RCE)
 
-[2022] Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). NanaBox - open-source Hyper-V client based on Host Compute System API. [Link](https://github.com/M2Team/NanaBox)
+[2022] Kenji Mouri (Qi Lu) [(@MouriNaruto)](https://twitter.com/MouriNaruto). NanaBox - open-source Hyper-V client based on Host Compute System API. [Link](https://github.com/M2Team/NanaBox)
 
 [2023] Daniel Fernandoz Kuehr [(@ergot86)](https://twitter.com/ergot86). JS script for dumping hypervisor related structures [EPT,  VMCS, etc](https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
 
@@ -250,6 +250,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [2023] Satoshi Tanda [(@standa_t)](https://twitter.com/standa_t). JS script for dumping hypervisor related structures [EPT, VMCS, MSR etc]. [Link](https://github.com/tandasat/hvext)
 
 [2023] Or Ben-Porath [(@OrBenPorath)](https://twitter.com/OrBenPorath), CyberArk [(@CyberarkLabs)](https://twitter.com/CyberarkLabs). Fuzzer-V. [Link](https://github.com/cyberark/Fuzzer-V) 
+
 
 
 # &nbsp;Software and tools, working with Hyper-V
@@ -268,4 +269,4 @@ Virtual Box source code.
 
  # &nbsp;Other sources, interesting links and Hyper-V related materials
 
-Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://twitter.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
+Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)](https://twitter.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
