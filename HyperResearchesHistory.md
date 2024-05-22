@@ -203,6 +203,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 	 	* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
 		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
 * Hyper-V components scheme (Windows 11 23H2) [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)
+* Hyper-V Memory Manager plugin module for Powershell [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HvlibPowershell)
   
 		
 [2014, 2024] Marc-André Moreau [(@awakecoding)](https://twitter.com/awakecoding). 
