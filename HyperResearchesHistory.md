@@ -143,7 +143,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 (CVE-2024-21305). [Link](https://tandasat.github.io/blog/2024/01/15/CVE-2024-21305.html)  
 [01.06.2024] Connor McGarr [(@33y0re)](https://www.x.com/33y0re). Windows Internals: Dissecting Secure Image Objects - Part 1. [Link](https://connormcgarr.github.io/secure-images/)  
 [29.06.2024] Andrea Allievi [(@aall86)](https://www.x.com/aall86), Satoshi Tanda [(@standa_t)](https://www.x.com/standa_t). Hypervisor-enforced Paging Translation. [Link](https://github.com/AaLl86/WindowsInternals/blob/master/Slides/Hypervisor-enforced%20Paging%20Translation%20-%20The%20end%20of%20non%20data-driven%20Kernel%20Exploits%20(Recon2024).pptx)  
-[07.08.2024] Alon Leviev [(@_0xDeku)](https://x.com/_0xDeku). Windows Downdate: Downgrade Attacks Using Windows Updates (Bypassing VBS UEFI Lock). [Link](https://www.safebreach.com/blog/downgrade-attacks-using-windows-updates)  
+[07.08.2024] Alon Leviev [(@_0xDeku)](https://x.com/_0xDeku). Windows Downdate: Downgrade Attacks Using Windows Updates (Bypassing VBS UEFI Lock). [Link](https://www.safebreach.com/blog/downgrade-attacks-using-windows-updates)    
 
 # &nbsp;Hyper-V related free and open source utilities, scripts, schemes 
 
