@@ -12,8 +12,8 @@
 
 # &nbsp;Hyper-V internals researches
 
-|Date <br/> _____________|Name<br/> ________________________________ |Contact <br/>________________|Title <br/>__________________________________|Links <br/>_____________________| 
-|:---------------:|------------------------------------|-----------------------|------------------------------|--------------------------------|
+|Date <br/> ____________|Name<br/> __________________________________|Contact <br/>_____________________|Title <br/>______________________________________________|Links <br/>________________| 
+|:---------------------:|--------------------------------------------|----------------------------------|---------------------------------------------------------|---------------------------|
 | **23.05.2006** | [Microsoft] Jake Oshins || Device Virtualization Architecture. WinHec 2006 | [Link](https://web.archive.org/web/20170808015836/https://cs.nyu.edu/courses/fall14/CSCI-GA.3033-010/Microsoft-Virtual-Devices.pdf)  |   
 | **01.08.2007** | *[Microsoft]* Brandon Baker || Windows Server Virtualization and The Windows Hypervisor | [Link](https://www.blackhat.com/presentations/bh-usa-07/Baker/Presentation/BH07_Baker_WSV_Hypervisor_Security.pdf)        |   
 | **19.01.2011** | Matthieu Suiche | [[www.msuiche.com]](https://www.msuiche.com) | LiveCloudKd. Your cloud is on my pocket. BlackHat DC 2011 | [Link](https://media.blackhat.com/bh-dc-11/Suiche/BlackHat_DC_2011_Suiche_Cloud%20Pocket-Slides.pdf) |   
