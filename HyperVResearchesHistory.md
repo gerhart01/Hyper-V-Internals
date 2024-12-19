@@ -75,7 +75,10 @@
 | **15.09.2023** | Matt Hand | [@matterpreter](https://www.x.com/matterpreter) | Hypervisor Detection with SystemHypervisorDetailInformation | [Link](https://medium.com/@matterpreter/hypervisor-detection-with-systemhypervisordetailinformation-26e44a57f80e) |    
 | **08.10.2023** | Pwndorei <br> l0ch | [@Pwndorei](https://www.x.com/lkjuio3865) <br> [@l0ch](https://www.x.com/l0ch_pwn) | Microsoft Hyper-V CVE-2018-0959 analysis  | [Part1 (Korean version)](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2) <br> [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3) <br> [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4) <br> [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5) <br> [Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s) |
 | **20.11.2023** | Satoshi Tanda | [@standa_t](https://www.x.com/standa_t) | Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC | [Link](https://github.com/tandasat/CVE-2023-36427)  |      
-| **12.05.2024** | Pwndorei | [@Pwndorei](https://www.x.com/lkjuio3865) | CVE-2023-36407 Analysis & Exploitation | [Link](https://hackyboiz.github.io/2024/05/12/pwndorei/newjeans-hyper-v-pt7/) |     
+| **12.05.2024** | Pwndorei | [@Pwndorei](https://www.x.com/lkjuio3865) | CVE-2023-36407 Analysis & Exploitation | [Link](https://hackyboiz.github.io/2024/05/12/pwndorei/newjeans-hyper-v-pt7/) |  
+| **01.09.2024** | Pwndorei | [@Pwndorei](https://www.x.com/lkjuio3865) | Hyper-V 1-day Class: CVE-2024-38080 | [Link](https://hackyboiz.github.io/2024/09/01/pwndorei/hyperv-1dayclass_CVE-2024-38080) <br> [Sources](https://github.com/pwndorei/CVE-2024-38080) |      
+| **14.10.2024** | Dor00tkit | [@Dor00tkit](https://x.com/Dor00tkit) | Debugging the Windows Hypervisor: Inspecting SK Calls | [Link](https://dor00tkit.github.io/Dor00tkit/posts/debugging-the-windows-hypervisor-inspecting-sk-calls)  
+
 	
 [Microsoft] - research was made by employee of Hyper-V creators company
 
@@ -85,7 +88,14 @@ Managing Hyper-V hypervisor scheduler types: [Link](https://docs.microsoft.com/e
 Hyper-V top level functional specification (web-version): [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
 Hyper-V top level functional specifications: [Link](https://github.com/MicrosoftDocs/Virtualization-Documentation/tree/live/tlfs)  
 Linux kernel for Hyper-V root partition [Link](https://lore.kernel.org/linux-hyperv/)  
+OpenHCL: the new, open source paravisor [Link](https://techcommunity.microsoft.com/t5/windows-os-platform-blog/openhcl-the-new-open-source-paravisor/ba-p/4273172). [Sources](https://github.com/microsoft/OHCL-Linux-Kernel)  
+Modular, cross-platform Virtual Machine Monitor (VMM), written in Rust. [Link](https://github.com/microsoft/openvmm)  
+Linux kernel, contains mshv (Linux root partition) module. [Link](https://github.com/microsoft/OHCL-Linux-Kernel)  
 Windows Powershell modules: [Hyper-V sockets example](https://github.com/PowerShell/PowerShell/blob/master/src/System.Management.Automation/engine/remoting/common/RemoteSessionHyperVSocket.cs)  
+
+**Hyperlight**  
+Introducing Hyperlight: Virtual machine-based security for functions at scale. [Link](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/).  
+Hyperlight source code. [Link](https://aka.ms/hyperlight-dev).  
 
 Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)  
 Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
@@ -111,7 +121,7 @@ SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Window
 
 # &nbsp;VBS\VSM researches
 
-I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i give links on papers, because they can contain some information about Hyper-V internals. 
+I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i add links on papers, because they can contain some information about Hyper-V internals  
 
 [06.08.2015] Alex Ionescu [(@aionescu)](https://www.x.com/aionescu). BATTLE OF SKM AND IUM. [Link](https://web.archive.org/web/20190728160948/http://www.alex-ionescu.com/blackhat2015.pdf)  
 [10.12.2015] Guillaume C. Windows 10 VSM Présentation des nouveautés et implémentations. [Link](https://www.ossir.org/bretagne/supports/2015/201512/win10vsm.pdf)  
@@ -145,6 +155,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [01.06.2024] Connor McGarr [(@33y0re)](https://www.x.com/33y0re). Windows Internals: Dissecting Secure Image Objects - Part 1. [Link](https://connormcgarr.github.io/secure-images/)  
 [29.06.2024] Andrea Allievi [(@aall86)](https://www.x.com/aall86), Satoshi Tanda [(@standa_t)](https://www.x.com/standa_t). Hypervisor-enforced Paging Translation. [Link](https://github.com/AaLl86/WindowsInternals/blob/master/Slides/Hypervisor-enforced%20Paging%20Translation%20-%20The%20end%20of%20non%20data-driven%20Kernel%20Exploits%20(Recon2024).pptx)   
 [07.08.2024] Alon Leviev [(@_0xDeku)](https://x.com/_0xDeku). Windows Downdate: Downgrade Attacks Using Windows Updates (Bypassing VBS UEFI Lock). [Link](https://www.safebreach.com/blog/downgrade-attacks-using-windows-updates)  
+[29.10.2024] Connor McGarr [(@33y0re)](https://www.x.com/33y0re). Redefining Security Boundaries: Unveiling Hypervisor-Backed Security Features For Windows Security. [Link](https://github.com/connormcgarr/Presentations/blob/master/McGarr_SANS_Hackfest_2024_Redefining_Security_Boundaries.pdf)  
 
 # &nbsp;Hyper-V related free and open source utilities, scripts, schemes 
 
@@ -158,17 +169,17 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
   * Hyper-V memory manager plugin .Net SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvlibdotnet)
   * Hyper-V memory manager plugin SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)
 * Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
-* CVE-2020-0890 PoC sources with binary (Windows Hyper-V Denial of Service Vulnerability) [Link](https://github.com/gerhart01/hyperv_local_dos_poc)
+* CVE-2020-0890 PoC sources with binary (Windows Hyper-V Denial of Service Vulnerability). [Link](https://github.com/gerhart01/hyperv_local_dos_poc)
 * Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://www.x.com/UlfFrisk). 
   * Source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). 
   * Plugin description from [@UlfFrisk](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v1.2.20230913/leechcore_hyperv_plugin_13.09.2023.zip)     
 * LiveCloudKd EXDi plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
 * LiveCloudKd EXDi plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)
-* LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20230530/LiveCloudKd.v2.5.5.20220530-release.zip)
+* LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20230530/LiveCloudKd.v2.5.5.20220530-release.zip)
 * Hvcalls GUI - tool for extracting hypercalls from Windows Hyper-V binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)
-* Radare2 build for displaying Hyper-V internals information through kd connection [Link](https://yadi.sk/d/eDAD9gIMEcAYEg)  
-* Hyper-V integration plugin for volatility [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/1.0.20221109/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20221109.zip) 
-* Hyper Views - utility for viewing Hyper-V memory page tables [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperViews)
+* Radare2 build for displaying Hyper-V internals information through kd connection. [Link](https://yadi.sk/d/eDAD9gIMEcAYEg)  
+* Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/1.0.20221109/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20221109.zip) 
+* Hyper Views - utility for viewing Hyper-V memory page tables. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperViews)
 * Scripts for Hyper-V researching: [Link](https://github.com/gerhart01/Hyper-V-scripts)
 	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ida75/ida75_CreatemVmcallHandlersTableWin11Preview.py)
 	 * Script for parsing VM_PROCESS_CONTEXT structure. [[Pykd version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py), [[JavaScript version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.js)
@@ -178,10 +189,10 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 	 * Script for some Hyper-V hypercalls codes and names automatic extraction on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
 	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
 	 * Scripts for Hyper-V sockets analysis (scripts were written for Hyper-V sockets internals article)
-		* AfdEndpointListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
-		* AfdTlTransportListHead parsing [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)
-* Hyper-V components scheme (Windows 11 23H2) [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)
-* Hyper-V Memory Manager plugin module for Powershell [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HvlibPowershell) 
+		* AfdEndpointListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
+		* AfdTlTransportListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)  
+* Hyper-V components scheme (Windows 11 23H2). [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)  
+* Hyper-V Memory Manager plugin module for Powershell. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HvlibPowershell) 
 		
 [2014, 2024] Marc-André Moreau [(@awakecoding)](https://www.x.com/awakecoding). 
 * Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
@@ -232,6 +243,10 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 [2023] Satoshi Tanda [(@standa_t)](https://www.x.com/standa_t). JS script for dumping hypervisor related structures [EPT, VMCS, MSR etc]. [Link](https://github.com/tandasat/hvext)
 
 [2023] Or Ben-Porath [(@OrBenPorath)](https://www.x.com/OrBenPorath), CyberArk [(@CyberarkLabs)](https://www.x.com/CyberarkLabs). Fuzzer-V. [Link](https://github.com/cyberark/Fuzzer-V) 
+
+[2024] Pwndorei [(@Pwndorei)](https://www.x.com/lkjuio3865).   
+* CVE-2024-38080 [Link](https://github.com/pwndorei/CVE-2024-38080)  
+* CVE-2023-36407 [Link](https://github.com/pwndorei/CVE-2023-36407)  
 
 
 # &nbsp;Software and tools, working with Hyper-V
