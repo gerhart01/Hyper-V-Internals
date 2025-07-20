@@ -74,7 +74,7 @@
 | **07.09.2023** | Francisco Falcon                                                               | [@fdfalcon](https://www.x.com/fdfalcon)                                                                                                                    | Debugging Windows Isolated User Mode (IUM) Processes                                                         | [Link](https://blog.quarkslab.com/debugging-windows-isolated-user-mode-ium-processes.html)  |      
 | **15.09.2023** | Matt Hand                                                                      | [@matterpreter](https://www.x.com/matterpreter)                                                                                                            | Hypervisor Detection with SystemHypervisorDetailInformation                                                  | [Link](https://medium.com/@matterpreter/hypervisor-detection-with-systemhypervisordetailinformation-26e44a57f80e) |    
 | **08.10.2023** | Junsu Lee <br> l0ch                                                            | [@pwndorei](https://www.x.com/pwndorei) <br> [@l0ch](https://www.x.com/l0ch_pwn)                                                                           | Microsoft Hyper-V CVE-2018-0959 analysis                                                                     | [Part1 (Korean version)](https://hackyboiz.github.io/2023/10/08/pwndorei/newjeans-hyper-v-pt2) <br> [Part2 (Korean version)](https://hackyboiz.github.io/2023/10/15/pwndorei/newjeans-hyper-v-pt3) <br> [Part3 (Korean version)](https://hackyboiz.github.io/2023/10/22/pwndorei/newjeans-hyper-v-pt4) <br> [Part4 (Korean version)](https://hackyboiz.github.io/2023/10/30/pwndorei/newjeans-hyper-v-pt5) <br> [Video](https://www.youtube.com/watch?v=LvtNtkAll84&t=106s) |  
-| **23.10.2023** | Leo Adrian                                                                     |                                                                                                                                                            | Don’t Lookaside or you’ll miss it: Turning a Hyper-V cache miss into 200k cash                               | [Link](https://www.youtube.com/watch?v=wbnFxwwhosc)  |    
+| **23.10.2023** | Leo Adrian                                                                     |                                                                                                                                                            | Don’t Lookaside or you’ll miss it: Turning a Hyper-V cache miss into 200k cash                               | [Video](https://www.youtube.com/watch?v=wbnFxwwhosc)  |    
 | **20.11.2023** | Satoshi Tanda                                                                  | [@standa_t](https://www.x.com/standa_t)                                                                                                                    | Microsoft Hyper-V CVE-2023-36427 vulnerability description and PoC                                           | [Link](https://github.com/tandasat/CVE-2023-36427)  |      
 | **12.05.2024** | Junsu Lee                                                                      | [@pwndorei](https://www.x.com/pwndorei)                                                                                                                    | CVE-2023-36407 Analysis & Exploitation                                                                       | [Link](https://hackyboiz.github.io/2024/05/12/pwndorei/newjeans-hyper-v-pt7/) |  
 | **01.09.2024** | Junsu Lee                                                                      | [@pwndorei](https://www.x.com/pwndorei)                                                                                                                    | Hyper-V 1-day Class: CVE-2024-38080                                                                          | [Link](https://hackyboiz.github.io/2024/09/01/pwndorei/hyperv-1dayclass_CVE-2024-38080) <br> [Sources](https://github.com/pwndorei/CVE-2024-38080) |      
@@ -179,42 +179,41 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 # &nbsp;Hyper-V related free and open source utilities, scripts, schemes 
 
-[2013-2025] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)
-* Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)
-* Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)
-* Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)
-* LiveCloudKd. [Link](https://github.com/gerhart01/LiveCloudKd)
-* Hyper-V memory manager plugin SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdSdk)
-  * Hyper-V memory manager plugin Python SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdPy)
-  * Hyper-V memory manager plugin .Net SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvlibdotnet)
-  * Hyper-V memory manager plugin SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)
-* Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)
-* CVE-2020-0890 PoC sources with binary (Windows Hyper-V Denial of Service Vulnerability). [Link](https://github.com/gerhart01/hyperv_local_dos_poc)
-* Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://www.x.com/UlfFrisk). 
-  * Source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm). 
-  * Plugin description from [@UlfFrisk](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v1.5.20250226/leechcore_hyperv_plugin_26.02.2025.zip)     
+[2013-2025] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)  
+* Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)  
+* Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)  
+* Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)  
+* LiveCloudKd. [Link](https://github.com/gerhart01/LiveCloudKd)  
+* Hyper-V memory manager plugin SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdSdk)  
+  * Hyper-V memory manager plugin Python SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdPy)  
+  * Hyper-V memory manager plugin .Net SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvlibdotnet)  
+  * Hyper-V memory manager plugin SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)  
+* Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)  
+* CVE-2020-0890 PoC sources with binary (Windows Hyper-V Denial of Service Vulnerability). [Link](https://github.com/gerhart01/hyperv_local_dos_poc)  
+* Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://www.x.com/UlfFrisk).   
+  * Source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm).  
+  * Plugin description from [@UlfFrisk](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v1.5.20250226/leechcore_hyperv_plugin_26.02.2025.zip)  
 * LiveCloudKd EXDi plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
-* LiveCloudKd EXDi plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)
-* LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20230530/LiveCloudKd.v2.5.5.20220530-release.zip)
-* Hvcalls GUI - tool for extracting hypercalls from Windows Hyper-V binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)
+* LiveCloudKd EXDi plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)  
+* LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v2.5.5.20230530/LiveCloudKd.v2.5.5.20220530-release.zip)  
+* Hvcalls GUI - tool for extracting hypercalls from Windows Hyper-V binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)  
 * Radare2 build for displaying Hyper-V internals information through kd connection. [Link](https://yadi.sk/d/eDAD9gIMEcAYEg)  
-* Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/1.0.20221109/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20221109.zip) 
-* Hyper Views - utility for viewing Hyper-V memory page tables. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperViews)
-* Scripts for Hyper-V researching: [Link](https://github.com/gerhart01/Hyper-V-scripts)
-	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ida75/ida75_CreatemVmcallHandlersTableWin11Preview.py)
-	 * Script for parsing VM_PROCESS_CONTEXT structure. [[Pykd version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py), [[JavaScript version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.js)
-	 * Script for displaying VMCS inside hvix64 (dynamic execution using WinDBG session in IDA PRO). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)
-	 * Script for automatic configuration of Guest OS debugging, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)
-	 * Script for getting some information from Windows Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py) 
-	 * Script for some Hyper-V hypercalls codes and names automatic extraction on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)
-	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)
-	 * Scripts for Hyper-V sockets analysis (scripts were written for Hyper-V sockets internals article)
-		* AfdEndpointListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	
-		* AfdTlTransportListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)  
-* Hyper-V components scheme (Windows 11 23H2). [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)  
+* Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/1.0.20221109/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20221109.zip)  
+* Hyper Views - utility for viewing Hyper-V memory page tables. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperViews)  
+* Scripts for Hyper-V researching: [Link](https://github.com/gerhart01/Hyper-V-scripts)  
+	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ida75/ida75_CreatemVmcallHandlersTableWin11Preview.py)  
+	 * Script for parsing VM_PROCESS_CONTEXT structure. [[Pykd version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.py), [[JavaScript version]](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParsePrtnStructure.js)  
+	 * Script for displaying VMCS inside hvix64 (dynamic execution using WinDBG session in IDA PRO). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/display-vmcs.py)  
+	 * Script for automatic configuration of Guest OS debugging, using embedded vmms.exe capabilities. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/hyperv-dbg-2019.ps1)  
+	 * Script for getting some information from Windows Secure Kernel in runtime (IDT, loaded modules, syscall, decyphering SkiSecureServiceTable). [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/securekernel_info_pykd.py)   
+	 * Script for some Hyper-V hypercalls codes and names automatic extraction on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls)  
+	 * Script for Hyper-V hypercalls codes and names automatic extraction with GUI on Powershell. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/extract_hvcalls_gui)  
+	 * Scripts for Hyper-V sockets analysis (scripts were written for Hyper-V sockets internals article)  
+		* AfdEndpointListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdEndpointListHead.py)	 
+		* AfdTlTransportListHead parsing. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ParseAfdTlTransportListHead.py)   
+* Hyper-V components scheme (Windows 11 23H2). [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)   
 * Hyper-V Memory Manager plugin module for Powershell. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HvlibPowershell)  
 * All hvlib-based projects in one solution. [Link](https://gitlab.com/hvlib/sdk)   
-
 	#### AI generated software. This software was generated by AI systems (online or offline). I want to do minimum code changes after code generation and not will plan to do custom patches for it. If you want to use that software, you need to do additional tests for it, because AI systems are active developed at this time  
 * Hyper-V Security Framework. Tool for analyzing security of Hyper-V environment. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperV-Security-Framework)  
 * Hyper-V Detector. Tool for making Hyper-V detection in user and kernel mode. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Hyperv_detector)  
