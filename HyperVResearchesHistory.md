@@ -1,4 +1,4 @@
-# Hyper-V internals researches history (2006-2025) <!-- omit in toc -->
+# <center>Hyper-V internals researches history (2006-2025)</center> <!-- omit in toc -->
 
 - [ Hyper-V internals researches](#hyper-v-internals-researches)
 - [ MSDN and other Microsoft sources](#msdn-and-other-microsoft-sources)
@@ -10,7 +10,7 @@
 - [ Software and tools, working with Hyper-V](#software-and-tools-working-with-hyper-v)
 - [ Other sources, interesting links and Hyper-V related materials](#other-sources-interesting-links-and-hyper-v-related-materials)
 
-# &nbsp;Hyper-V internals researches
+# <center>&nbsp;Hyper-V internals researches</center>
 
 |Date<br/>__________|Name <br/> ________________________________ |Contact <br/>_____________________|Title <br/>______________________________________________|Links <br/>________________| 
 |:--------------:|:-------------------------------------------|:----------------------------------|:--------------------------------------------------------|:-------------------------|
@@ -26,7 +26,7 @@
 | **04.01.2016** |                                                	                              |                                                                                                                                                            | Hyper-V vmswitch.sys VmsMpCommonPvtHandleMulticastOids Guest to Host Kernel-Pool Overflow                    | [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=688)  |   
 | **04.01.2016** |                                                	                              |                                                                                                                                                            | Hyper-V vmswitch.sys VmsVmNicHandleRssParametersChange OOBR Guest to Host BugChecks                          | [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=689)  |   
 | **04.01.2016** |                                                	                              |                                                                                                                                                            | Hyper-V vmswitch.sys VmsPtpIpsecTranslateAddv2toAddv2Ex OOBR Guest to Host BugCheck                          | [Link](https://bugs.chromium.org/p/project-zero/issues/detail?id=690)  |   
-| **17.06.2017** | *[Microsoft]* Andrea Allievi                   	                              | [@aall86](https://www.x.com/aall86)                                                                                                                        | The Hyper-V Architecture and its Memory Manager                                                              | [Link](https://www.andrea-allievi.com/files/Recon_2017_Montreal_HyperV_public.pptx) <br> [Web Archive link](https://web.archive.org/web/20200103231355/https://www.andrea-allievi.com/files/Recon_2017_Montreal_HyperV_public.pptx) |   
+| **17.06.2017** | *[Microsoft]* Andrea Allievi                   	                              | [@aall86](https://www.x.com/aall86)                                                                                                                        | The Hyper-V Architecture and its Memory Manager                                                              | [Link](https://www.andrea-allievi.com/files/Recon_2017_Montreal_HyperV_public.pptx) |   
 | **22.03.2017** | Aleksandr Bazhaniuk <br> Mikhail Gorobets <br> Andrew Furtak <br> Yuriy Bulygin| [@ABazhaniuk](https://www.x.com/ABazhaniuk) <br> [@mikhailgorobets](https://www.x.com/mikhailgorobets) <br> [@c7zero](https://www.x.com/c7zero) <br>&nbsp; | Attacking hypervisors through hardware emulation                                                             | [Link](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)  |   
 | **09.08.2017** | Arthur Khudyaev                                                                | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V sockets internals                                                                                    | [Link](https://xakep.ru/2017/08/09/hyper-v-internals) <br> [English version](https://hvinternals.blogspot.com/2017/09/hyperv-socket-internals.html)  |   
 | **19.06.2018** | *[Microsoft]* Benjamin Armstrong                                               | [@vbenarmstrong](https://www.x.com/vbenarmstrong)                                                                                                          | Hyper-V API Overview                                                                                         | [Link](https://interopevents.blob.core.windows.net/events/2018/Redmond/Day%202/Track%201/docs/917318-2_21_1130_State%20of%20Hyper-V%20API%20World.pdf) | 
@@ -40,13 +40,13 @@
 | **28.01.2019** | *[Microsoft]*                                                                  |                                                                                                                                                            | Fuzzing para-virtualized devices in Hyper-V                                                                  | [Link](https://msrc.microsoft.com/blog/2019/01/fuzzing-para-virtualized-devices-in-hyper-v/)  |   
 | **15.02.2019** | Amardeep Chana                                                                 |                                                                                                                                                            | Ventures into Hyper-V - Fuzzing hypercalls                                                                   | [Link](https://labs.withsecure.com/publications/ventures-into-hyper-v-part-1-fuzzing-hypercalls)  |   
 | **15.02.2019** | *[Microsoft]* Daniel King <br> *[Microsoft]* Shawn Denbow                      | [@long123king](https://www.x.com/long123king) <br> [@sdenbow_](https://www.x.com/sdenbow_)                                                                 | Growing Hypervisor 0day with Hyperseed                                                                       | [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf) |    
-| **25.03.2019** |   Bruce Dang                                                                   | [@brucedang](https://www.x.com/brucedang)                                                                                                                  | Some notes on identifying exit and hypercall handlers in Hyper-V                                             | [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) <br> [Web Archive link](https://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  |   
+| **25.03.2019** | Bruce Dang                                                                   | [@brucedang](https://www.x.com/brucedang)                                                                                                                  | Some notes on identifying exit and hypercall handlers in Hyper-V                                             | [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) <br> [Web Archive link](https://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  |   
 | **08.08.2019** | *[Microsoft]* Joe Bialek                                                       | [@josephbialek](https://www.x.com/josephbialek)                                                                                                            | Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine                                            | [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)  |   
-| **04.09.2019** |  Arthur Khudyaev                                                               | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. Guest OS memory access                                                             | [Russian version](https://www.securitylab.ru/contest/500796.php) <br> [English version. [10.09.2019]](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)|    
+| **04.09.2019** | Arthur Khudyaev                                                               | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. Guest OS memory access                                                             | [Russian version](https://www.securitylab.ru/contest/500796.php) <br> [English version. [10.09.2019]](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)|    
 | **11.09.2019** | *[Microsoft]* Saar Amar                                                        | [@AmarSaar](https://www.x.com/AmarSaar)                                                                                                                    | Attacking the VM Worker Process                                                                              | [Link](https://msrc.microsoft.com/blog/2019/09/attacking-the-vm-worker-process/)  |      
 | **14.05.2020** | Alisa Shevchenko                                                               | [@alisaesage](https://www.x.com/alisaesage)                                                                                                                | Hyper-V Linux integration services description                                                               | [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)  |     
-| **04.06.2020** | Damien Aumaitre                                                                |                                                                                                                                                            | Fuzz and Profit with WHVP.                                                                                   | [Link](https://www.sstic.org/media/SSTIC2020/SSTIC-actes/fuzz_and_profit_with_whvp/SSTIC2020-Slides-fuzz_and_profit_with_whvp-aumaitre.pdf) |       
-| **19.06.2020** | Arthur Khudyaev                                                                | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. EXO partition memory access.                                                       | [English version](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html) <br> [Russian version [24.06.2020]](https://xakep.ru/2020/06/24/hyper-v-exo/)  
+| **04.06.2020** | Damien Aumaitre                                                                |                                                                                                                                                            | Fuzz and Profit with WHVP.                                                                                   | [French version](https://www.sstic.org/media/SSTIC2020/SSTIC-actes/fuzz_and_profit_with_whvp/SSTIC2020-Slides-fuzz_and_profit_with_whvp-aumaitre.pdf) |       
+| **19.06.2020** | Arthur Khudyaev                                                                | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. EXO partition memory access.                                                       | [English version](https://hvinternals.blogspot.com/2020/06/hyper-v-memory-internals-exo-partition.html) <br> [Russian version [24.06.2020]](https://xakep.ru/2020/06/24/hyper-v-exo/) |   
 | **03.09.2020** | Arthur Khudyaev                                                                | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Windows Hyper-V Denial of Service vulnerability internals in nested virtualization component (CVE-2020-0890) | [Link](https://hvinternals.blogspot.com/2020/09/hyper-v-nested-virtualization-dos.html)  |    
 | **10.09.2020** | Blue Frost Security GmbH                                                       |                                                                                                                                                            | Microsoft Hyper-V Stack Overflow Denial of Service (CVE-2020-0751)                                           | [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-001) |   
 | **10.09.2020** | Blue Frost Security GmbH                                                       |                                                                                                                                                            | Microsoft Hyper-V Type Confusion leading to Arbitrary Memory Dereference (CVE-2020-0904)                     | [Link](https://labs.bluefrostsecurity.de/advisories/bfs-sa-2020-003)  |   
@@ -84,7 +84,7 @@
 	
 [Microsoft] - research was made by employee of Hyper-V creators company
 
-# &nbsp;MSDN and other Microsoft sources
+# <center>&nbsp;MSDN and other Microsoft sources</center>
 
 Managing Hyper-V hypervisor scheduler types: [Link](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-hyper-v-scheduler-types)  
 Hyper-V top level functional specification (web-version): [Link](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/tlfs/tlfs)  
@@ -130,7 +130,7 @@ Introducing Hyperlight: Virtual machine-based security for functions at scale.
 																			   
 Hyperlight source code. [Link](https://aka.ms/hyperlight-dev).  
 
-# &nbsp;VBS\VSM researches
+# <center>&nbsp;VBS\VSM researches</center>
 
 I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore i add links on papers, because they can contain some information about Hyper-V components internals  
 
@@ -175,9 +175,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [25.02.2025] Ori David [(@oridavid123)](https://x.com/oridavid123). Abusing VBS Enclaves to Create Evasive Malware. [Link](https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware)  
 
-
-
-# &nbsp;Hyper-V related free and open source utilities, scripts, schemes 
+# <center>&nbsp;Hyper-V related free and open source utilities, scripts, schemes</center> 
 
 [2013-2025] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)  
 * Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)  
@@ -261,7 +259,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * NanaBox - open-source Hyper-V client based on Host Compute System API. [Link](https://github.com/M2Team/NanaBox)  
 * The lightweight library for Hyper-V guest interfaces. [Link](https://github.com/ProjectMile/Mile.HyperV)  
 
-[2023] Daniel Fernandoz Kuehr [(@ergot86)](https://www.x.com/ergot86). JS script for dumping hypervisor related structures [EPT,  VMCS, etc](https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
+[2023] Daniel Fernandus Kuehr [(@ergot86)](https://www.x.com/ergot86). JS script for dumping hypervisor related structures [EPT,  VMCS, etc](https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
 
 [2023] Aryan Xyrem [(@Xyrem256)](https://www.x.com/Xyrem256). Hypercall - library that allows you to impersonate as Hyper-V and intercept hypercalls done by the Windows kernel. [Link](https://github.com/Xyrem/HyperDeceit) 
 
@@ -279,7 +277,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 
 
-# &nbsp;Software and tools, working with Hyper-V
+# <center>&nbsp;Software and tools, working with Hyper-V</center>
 
 
 Linux Integration Services (LIS). [Link](https://github.com/LIS)  
@@ -296,7 +294,7 @@ Virtual Box source code.
  * [Sources](https://www.virtualbox.org/wiki/Downloads)
  * [Module](https://www.virtualbox.org/browser/vbox/trunk/src/VBox/VMM/VMMR3/NEMR3Native-win.cpp)
 
- # &nbsp;Other sources, interesting links and Hyper-V related materials
+ # <center>&nbsp;Other sources, interesting links and Hyper-V related materials</center>
 
 Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
  
