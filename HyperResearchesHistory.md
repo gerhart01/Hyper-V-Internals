@@ -278,7 +278,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * SkBridge [Link](https://github.com/connormcgarr/SkBridge)  
 * Vtl1Mon [Link](https://github.com/connormcgarr/Vtl1Mon)  
 
-[2025] cbwang505 [(@cbwang505)](https://x.com/cbwang505)  
+[2025] [(@cbwang505)](https://x.com/cbwang505)  
 * SecurekernelIUMDebug. Utility for debugging isolated usermode process on guest VM inside Hyper-V VM. [Link](https://github.com/cbwang505/SecurekernelIUMDebug)  
 
 
