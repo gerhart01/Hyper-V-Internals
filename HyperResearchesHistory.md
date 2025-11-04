@@ -40,9 +40,9 @@
 | **28.01.2019** | *[Microsoft]*                                                                  |                                                                                                                                                            | Fuzzing para-virtualized devices in Hyper-V                                                                  | [Link](https://msrc.microsoft.com/blog/2019/01/fuzzing-para-virtualized-devices-in-hyper-v/)  |   
 | **15.02.2019** | Amardeep Chana                                                                 |                                                                                                                                                            | Ventures into Hyper-V - Fuzzing hypercalls                                                                   | [Link](https://labs.withsecure.com/publications/ventures-into-hyper-v-part-1-fuzzing-hypercalls)  |   
 | **15.02.2019** | *[Microsoft]* Daniel King <br> *[Microsoft]* Shawn Denbow                      | [@long123king](https://www.x.com/long123king) <br> [@sdenbow_](https://www.x.com/sdenbow_)                                                                 | Growing Hypervisor 0day with Hyperseed                                                                       | [Link](https://github.com/Microsoft/MSRC-Security-Research/blob/master/presentations/2019_02_OffensiveCon/2019_02%20-%20OffensiveCon%20-%20Growing%20Hypervisor%200day%20with%20Hyperseed.pdf) |    
-| **25.03.2019** | Bruce Dang                                                                   | [@brucedang](https://www.x.com/brucedang)                                                                                                                  | Some notes on identifying exit and hypercall handlers in Hyper-V                                             | [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) <br> [Web Archive link](https://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  |   
+| **25.03.2019** | Bruce Dang                                                                     | [@brucedang](https://www.x.com/brucedang)                                                                                                                  | Some notes on identifying exit and hypercall handlers in Hyper-V                                             | [Link](https://gracefulbits.wordpress.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/) <br> [Web Archive link](https://web.archive.org/web/20200210200349/https://gracefulbits.com/2019/03/25/some-notes-on-identifying-exit-and-hypercall-handlers-in-hyperv/)  |   
 | **08.08.2019** | *[Microsoft]* Joe Bialek                                                       | [@josephbialek](https://www.x.com/josephbialek)                                                                                                            | Exploiting the Hyper-V IDE Emulator to Escape the Virtual Machine                                            | [Link](https://github.com/microsoft/MSRC-Security-Research/blob/master/presentations/2019_08_BlackHatUSA/BHUSA19_Exploiting_the_Hyper-V_IDE_Emulator_to_Escape_the_Virtual_Machine.pdf)  |   
-| **04.09.2019** | Arthur Khudyaev                                                               | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. Guest OS memory access                                                             | [Russian version](https://www.securitylab.ru/contest/500796.php) <br> [English version. [10.09.2019]](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)|    
+| **04.09.2019** | Arthur Khudyaev                                                                | [@gerhart_x](https://www.x.com/gerhart_x)                                                                                                                  | Hyper-V memory internals. Guest OS memory access                                                             | [Russian version](https://www.securitylab.ru/contest/500796.php) <br> [English version. [10.09.2019]](https://hvinternals.blogspot.com/2019/09/hyper-v-memory-internals-guest-os-memory-access.html)|    
 | **11.09.2019** | *[Microsoft]* Saar Amar                                                        | [@AmarSaar](https://www.x.com/AmarSaar)                                                                                                                    | Attacking the VM Worker Process                                                                              | [Link](https://msrc.microsoft.com/blog/2019/09/attacking-the-vm-worker-process/)  |      
 | **14.05.2020** | Alisa Shevchenko                                                               | [@alisaesage](https://www.x.com/alisaesage)                                                                                                                | Hyper-V Linux integration services description                                                               | [Link](https://re.alisa.sh/notes/Hyper-V-LIS.html)  |     
 | **04.06.2020** | Damien Aumaitre                                                                |                                                                                                                                                            | Fuzz and Profit with WHVP.                                                                                   | [French version](https://www.sstic.org/media/SSTIC2020/SSTIC-actes/fuzz_and_profit_with_whvp/SSTIC2020-Slides-fuzz_and_profit_with_whvp-aumaitre.pdf) |       
@@ -80,8 +80,9 @@
 | **01.09.2024** | Junsu Lee                                                                      | [@pwndorei](https://www.x.com/pwndorei)                                                                                                                    | Hyper-V 1-day Class: CVE-2024-38080                                                                          | [Link](https://hackyboiz.github.io/2024/09/01/pwndorei/hyperv-1dayclass_CVE-2024-38080) <br> [Sources](https://github.com/pwndorei/CVE-2024-38080) |      
 | **14.10.2024** | Dor00tkit                                                                      | [@Dor00tkit](https://x.com/Dor00tkit)                                                                                                                      | Debugging the Windows Hypervisor: Inspecting SK Calls                                                        | [Link](https://dor00tkit.github.io/Dor00tkit/posts/debugging-the-windows-hypervisor-inspecting-sk-calls)|     
 | **19.10.2024** | *[Microsoft]* Chris Oo                                                         |                                                                                                                                                            | OpenHCL: A Linux based paravisor for Confidential VMs                                                        | [Link](https://lpc.events/event/18/contributions/1862/attachments/1633/3376/04-OpenHCL.pdf)|  
-| **10.03.2025** | Alessandro Iandoli                                                             | [@MrAle_98](https://x.com/MrAle_98)                                                                                                                        | CVE-2025–21333 Windows heap-based buffer overflow analysis (vkrnlintvsp.sys vulnerability)                   | [Link](https://infosecwriteups.com/cve-2025-21333-windows-heap-based-buffer-overflow-analysis-d1b597ae4bae)|  
-	
+| **10.03.2025** | Alessandro Iandoli                                                             | [@MrAle_98](https://x.com/MrAle_98)                                                                                                                        | CVE-2025–21333 Windows heap-based buffer overflow analysis (vkrnlintvsp.sys vulnerability)                   | [Link](https://infosecwriteups.com/cve-2025-21333-windows-heap-based-buffer-overflow-analysis-d1b597ae4bae)|    
+| **08.09.2025** | Connor McGarr                                                                  | [@33y0re](https://www.x.com/33y0re)            																											   | Windows Internals: Secure Calls - The Bridge Between The NT Kernel and Secure Kernel                         | [Link](https://connormcgarr.github.io/secure-calls-and-skbridge)|    
+
 [Microsoft] - research was made by employee of Hyper-V creators company
 
 # <center>&nbsp;MSDN and other Microsoft sources</center>
@@ -120,15 +121,10 @@ Msvm firmware project for virtual machines running with the Microsoft hypervisor
 - enclaveapi.h
 - winenclaveapi.h
 - winenclave.h
-- isolatedapplauncher.h
+- isolatedapplauncher.h  
 
-**Hyperlight**  
+Hyperlight: Virtual machine-based security for functions at scale. [Source code link](https://aka.ms/hyperlight-dev). [Description](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/).  													   
 
-Introducing Hyperlight: Virtual machine-based security for functions at scale.  
-[Article1](https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/).  
-[Article2](https://opensource.microsoft.com/blog/2025/03/26/hyperlight-wasm-fast-secure-and-os-free)  
-																			   
-Hyperlight source code. [Link](https://aka.ms/hyperlight-dev).  
 
 # <center>&nbsp;VBS\VSM researches</center>
 
@@ -174,6 +170,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
   * [Video](https://www.youtube.com/watch?v=T7qxs-9OTjY)  
 
 [25.02.2025] Ori David [(@oridavid123)](https://x.com/oridavid123). Abusing VBS Enclaves to Create Evasive Malware. [Link](https://www.akamai.com/blog/security-research/2025-february-abusing-vbs-enclaves-evasive-malware)  
+[24.06.2025] Jonathan Jagt. Analysis of Windows Secure Kernel security bugs. [Link](https://www.cs.ru.nl/masters-theses/2025/J_Jagt___Analysis_of_Windows_Secure_Kernel_security_bugs.pdf)  
 
 # <center>&nbsp;Hyper-V related free and open source utilities, scripts, schemes</center> 
 
@@ -275,6 +272,14 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2025] Ryan M. [(@Grimdoomer)](https://x.com/Grimdoomer). Xbox 360 Bad Update exploit, a software only hypervisor exploit for dashboard version 17559. [Link](https://github.com/grimdoomer/Xbox360BadUpdate)  
 
+[2025] Noahware. Hyper-reV. Memory introspection and reverse engineering hypervisor powered by leveraging Hyper-V. [Link](https://github.com/noahware/hyper-reV)  
+
+[2025] Connor McGarr [(@33y0re)](https://www.x.com/33y0re)  
+* SkBridge [Link](https://github.com/connormcgarr/SkBridge)  
+* Vtl1Mon [Link](https://github.com/connormcgarr/Vtl1Mon)  
+
+[2025] cbwang505 [(@cbwang505)](https://x.com/cbwang505)  
+* SecurekernelIUMDebug. Utility for debugging isolated usermode process on guest VM inside Hyper-V VM. [Link](https://github.com/cbwang505/SecurekernelIUMDebug)  
 
 
 # <center>&nbsp;Software and tools, working with Hyper-V</center>
