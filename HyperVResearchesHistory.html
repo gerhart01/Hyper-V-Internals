@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyper-V Research History (2006-2025)</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <style>
         /* Theme Variables */
         :root {
@@ -105,21 +106,23 @@
             top: 20px;
             right: 40px;
             display: flex;
-            gap: 10px;
+            flex-direction: column;
+            gap: 8px;
             z-index: 1000;
         }
         
         .theme-btn {
-            padding: 10px 20px;
+            padding: 6px 14px;
             border: 2px solid rgba(255,255,255,0.3);
             background: rgba(255,255,255,0.1);
             color: white;
-            border-radius: 8px;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 0.9em;
+            font-size: 0.75em;
             font-weight: 600;
             transition: all 0.3s ease;
             backdrop-filter: blur(10px);
+            white-space: nowrap;
         }
         
         .theme-btn:hover {
@@ -133,6 +136,60 @@
             border-color: var(--accent);
             box-shadow: 0 4px 12px rgba(220,20,60,0.4);
         }
+        
+        /* 3D Hyper-V Logo */
+        .hyperv-3d-logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 96px;
+            height: 96px;
+            perspective: 1200px;
+            z-index: 1000;
+            transition: all 0.3s ease-out;
+            cursor: pointer;
+        }
+        
+        .cube {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            animation: rotateCube 10s infinite linear;
+        }
+        
+        @keyframes rotateCube {
+            from { transform: rotateX(0deg) rotateY(0deg); }
+            to { transform: rotateX(360deg) rotateY(360deg); }
+        }
+        
+        .face {
+            position: absolute;
+            width: 96px;
+            height: 96px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, rgba(33, 66, 124, 0.9), rgba(67, 97, 150, 0.9));
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .front  { transform: rotateY(0deg) translateZ(48px); }
+        .back   { transform: rotateY(180deg) translateZ(48px); }
+        .right  { transform: rotateY(90deg) translateZ(48px); }
+        .left   { transform: rotateY(-90deg) translateZ(48px); }
+        .top    { transform: rotateX(90deg) translateZ(48px); }
+        .bottom { transform: rotateX(-90deg) translateZ(48px); }
+        
+        .cube:hover {
+            animation-play-state: paused;
+        }
+        
         h1 { 
             font-size: 2.5em; 
             font-weight: 700; 
@@ -281,6 +338,8 @@
             width: 100%;
             border-collapse: collapse;
             background: var(--card-bg);
+            font-family: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+            letter-spacing: 0.4px;
         }
         thead {
             background: var(--section-header-bg);
@@ -291,7 +350,13 @@
             text-align: left;
             font-weight: 600;
             text-transform: uppercase;
-            font-size: 0.85em;
+            font-size: 0.9em;
+            font-family: 'EB Garamond', 'Garamond', serif;
+            letter-spacing: 2px;
+            font-variant: small-caps;
+        }
+        th:first-child {
+            text-align: center;
         }
         tbody tr {
             border-bottom: 1px solid var(--border);
@@ -299,14 +364,25 @@
         }
         tbody tr:hover { background: var(--card-hover); }
         tbody tr.hidden { display: none; }
+        thead.hidden { display: none; }
         td {
-            padding: 14px 12px;
-            vertical-align: top;
+            padding: 16px 14px;
+            vertical-align: middle;
+            font-size: 1.1em;
+            line-height: 1.65;
+            font-weight: 400;
         }
         td:first-child {
             font-weight: 600;
+            text-align: center;
+            vertical-align: middle;
             color: var(--primary);
             white-space: nowrap;
+        }
+        td:nth-child(2) {
+            font-weight: 500;
+            font-size: 1.12em;
+            font-style: italic;
         }
         
         /* Links */
@@ -361,6 +437,7 @@
         }
         .content-list li:last-child { border-bottom: none; }
         .content-list li.hidden { display: none; }
+        .info-block.hidden { display: none; }
         
         /* Subtle markers for list items */
         .content-list li::before {
@@ -563,7 +640,9 @@
             
             .theme-switcher {
                 position: static;
+                flex-direction: row;
                 justify-content: center;
+                margin-bottom: 20px;
                 margin-bottom: 20px;
             }
             
@@ -571,6 +650,26 @@
                 padding: 8px 12px;
                 font-size: 0.8em;
             }
+            
+            .hyperv-3d-logo {
+                width: 60px;
+                height: 60px;
+                top: 10px;
+                left: 10px;
+            }
+            
+            .face {
+                width: 60px;
+                height: 60px;
+                font-size: 10px;
+            }
+            
+            .front  { transform: rotateY(0deg) translateZ(30px); }
+            .back   { transform: rotateY(180deg) translateZ(30px); }
+            .right  { transform: rotateY(90deg) translateZ(30px); }
+            .left   { transform: rotateY(-90deg) translateZ(30px); }
+            .top    { transform: rotateX(90deg) translateZ(30px); }
+            .bottom { transform: rotateX(-90deg) translateZ(30px); }
         }
     </style>
 </head>
@@ -581,6 +680,17 @@
                 <button class="theme-btn active" onclick="setTheme('light')" id="theme-light">☀️ Light</button>
                 <button class="theme-btn" onclick="setTheme('dark')" id="theme-dark">🌙 Dark</button>
                 <button class="theme-btn" onclick="setTheme('metallic')" id="theme-metallic">⚙️ Metal</button>
+            </div>
+            <!-- 3D Hyper-V Logo -->
+            <div class="hyperv-3d-logo">
+                <div class="cube">
+                    <div class="face front">Hyper-V</div>
+                    <div class="face back">Hyper-V</div>
+                    <div class="face right">Hyper-V</div>
+                    <div class="face left">Hyper-V</div>
+                    <div class="face top">Hyper-V</div>
+                    <div class="face bottom">Hyper-V</div>
+                </div>
             </div>
             <h1>Hyper-V Internals Research History</h1>
             <p class="subtitle">Collection (2006-2025)</p>
@@ -1300,9 +1410,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2022] Abdelhamid Naceri [(@KLINIX5)](https://www.x.com/KLINIX5). Reverse RDP RCE example. [Link](https://github.com/klinix5/ReverseRDP_RCE)
 
-[2022] Kenji Mouri (Qi Lu) [(@MouriNaruto)](https://www.x.com/MouriNaruto). 
+[2022,2024] Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). 
 * NanaBox - open-source Hyper-V client based on Host Compute System API. [Link](https://github.com/M2Team/NanaBox)  
-* The lightweight library for Hyper-V guest interfaces. [Link](https://github.com/ProjectMile/Mile.HyperV)  
+* Mile.HyperV - The lightweight library for Hyper-V guest interfaces. [Link](https://github.com/ProjectMile/Mile.HyperV)   
 
 [2023] Daniel Fernandus Kuehr [(@ergot86)](https://www.x.com/ergot86). JS script for dumping hypervisor related structures [EPT,  VMCS, etc](https://github.com/ergot86/crap/blob/main/hyperv_stuff.js)
 
@@ -1334,9 +1444,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 
 Linux Integration Services (LIS). [Link](https://github.com/LIS)  
-MemProcFS. [Link](https://github.com/ufrisk/MemProcFS)  
-SynthRdp. [Link](https://github.com/M2Team/NanaRun/tree/main/SynthRdp)  
-Plan 9 Remote Resource Protocol transport (including Hyper-V socket support). [Link](https://github.com/ProjectMile/Mile.Cirno)  
+MemProcFS by Ulf Frisk [(@UlfFrisk)](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/MemProcFS)   
+SynthRdp by Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/M2Team/NanaRun/tree/main/SynthRdp)   
+Plan 9 Remote Resource Protocol transport (including Hyper-V socket support) with Mile.Cirno project by Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/ProjectMile/Mile.Cirno)  
 Azure Linux sources. [Link](https://github.com/microsoft/azurelinux)  
 
 Qemu source code (WHPX support module). 
@@ -1517,6 +1627,98 @@ Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)
             processLinks();
             collapseAll();
             
+            // Interactive 3D cube - moves away from mouse
+            const cube3D = document.querySelector('.hyperv-3d-logo');
+            const cubeAnimation = document.querySelector('.cube');
+            let isMoving = false;
+            
+            document.addEventListener('mousemove', function(e) {
+                if (!cube3D || isMoving) return;
+                
+                const rect = cube3D.getBoundingClientRect();
+                const cubeCenterX = rect.left + rect.width / 2;
+                const cubeCenterY = rect.top + rect.height / 2;
+                const mouseX = e.clientX;
+                const mouseY = e.clientY;
+                
+                // Calculate distance from mouse to cube
+                const distanceX = mouseX - cubeCenterX;
+                const distanceY = mouseY - cubeCenterY;
+                const distance = Math.sqrt(distanceX * distanceX + distanceY * distanceY);
+                
+                // If mouse is close (within 150px), move cube away
+                if (distance < 150) {
+                    isMoving = true;
+                    
+                    // Calculate direction away from mouse
+                    let angle = Math.atan2(distanceY, distanceX);
+                    const moveDistance = 150;
+                    let newLeft = cubeCenterX - Math.cos(angle) * moveDistance;
+                    let newTop = cubeCenterY - Math.sin(angle) * moveDistance;
+                    
+                    // Get content boundaries with extra margin for rotating cube
+                    const bodyStyle = window.getComputedStyle(document.body);
+                    const bodyPadding = parseInt(bodyStyle.paddingLeft) || 20;
+                    const cubeRotationMargin = 50; // Extra margin for rotating corners
+                    const minLeft = bodyPadding + cubeRotationMargin;
+                    const minTop = bodyPadding + cubeRotationMargin;
+                    const maxLeft = window.innerWidth - bodyPadding - rect.width - cubeRotationMargin;
+                    const maxTop = window.innerHeight - bodyPadding - rect.height - cubeRotationMargin;
+                    
+                    // Check if hitting boundaries and bounce
+                    let bounced = false;
+                    if (newLeft < minLeft) {
+                        newLeft = minLeft + (minLeft - newLeft); // Bounce off left
+                        angle = Math.PI - angle; // Reflect angle
+                        bounced = true;
+                    }
+                    if (newLeft > maxLeft) {
+                        newLeft = maxLeft - (newLeft - maxLeft); // Bounce off right
+                        angle = Math.PI - angle;
+                        bounced = true;
+                    }
+                    if (newTop < minTop) {
+                        newTop = minTop + (minTop - newTop); // Bounce off top
+                        angle = -angle;
+                        bounced = true;
+                    }
+                    if (newTop > maxTop) {
+                        newTop = maxTop - (newTop - maxTop); // Bounce off bottom
+                        angle = -angle;
+                        bounced = true;
+                    }
+                    
+                    // Final boundary check (hard limit)
+                    newLeft = Math.max(minLeft, Math.min(maxLeft, newLeft));
+                    newTop = Math.max(minTop, Math.min(maxTop, newTop));
+                    
+                    // Get header position to convert to absolute coordinates
+                    const header = document.querySelector('header');
+                    const headerRect = header.getBoundingClientRect();
+                    
+                    // Convert to absolute position relative to header
+                    const finalLeft = newLeft - headerRect.left + window.pageXOffset;
+                    const finalTop = newTop - headerRect.top + window.pageYOffset;
+                    
+                    cube3D.style.left = finalLeft + 'px';
+                    cube3D.style.top = finalTop + 'px';
+                    
+                    // Speed up rotation when moving, extra fast if bounced
+                    cubeAnimation.style.animation = bounced ? 'rotateCube 1s infinite linear' : 'rotateCube 2s infinite linear';
+                    
+                    setTimeout(() => {
+                        isMoving = false;
+                        cubeAnimation.style.animation = 'rotateCube 10s infinite linear';
+                    }, 500);
+                }
+            });
+            
+            // Reset position on click
+            cube3D.addEventListener('click', function() {
+                cube3D.style.left = '20px';
+                cube3D.style.top = '20px';
+            });
+            
             document.getElementById('searchInput').addEventListener('keyup', function(e) {
                 if (e.key === 'Enter') performSearch();
             });
@@ -1573,9 +1775,14 @@ Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)
         }
 
         function updateStats() {
-            document.getElementById('total-researches').textContent = allData.research.length;
+            const totalResearch = allData.research.length + allData.vbs.length;
+            document.getElementById('total-researches').textContent = totalResearch;
             const years = new Set();
             allData.research.forEach(r => {
+                const m = r.date.match(/\d{4}/);
+                if (m) years.add(m[0]);
+            });
+            allData.vbs.forEach(r => {
                 const m = r.date.match(/\d{4}/);
                 if (m) years.add(m[0]);
             });
@@ -1614,13 +1821,23 @@ Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)
                 }
             });
             
-            // Search in VBS, utilities, MSDN, software, other lists
+            // Search in VBS, MSDN, software, other lists
             document.querySelectorAll('#vbs-list li, #content-msdn .content-list li, #content-software .content-list li, #content-other .content-list li').forEach(li => {
                 if (li.textContent.toLowerCase().includes(query)) {
                     li.classList.remove('hidden');
                     matches++;
                 } else {
                     li.classList.add('hidden');
+                }
+            });
+            
+            // Search in info-blocks (e.g., SDK/WDK headers)
+            document.querySelectorAll('.info-block').forEach(block => {
+                if (block.textContent.toLowerCase().includes(query)) {
+                    block.classList.remove('hidden');
+                    matches++;
+                } else {
+                    block.classList.add('hidden');
                 }
             });
             
@@ -1633,6 +1850,18 @@ Notes for using Host Compute System API from Kenji Mouri (Qi Lu) [(@MouriNaruto)
                     entry.classList.add('hidden');
                 }
             });
+            
+            // Hide thead if all tbody rows are hidden
+            const tbody = document.getElementById('research-tbody');
+            const thead = tbody ? tbody.previousElementSibling : null;
+            if (tbody && thead && thead.tagName === 'THEAD') {
+                const visibleRows = tbody.querySelectorAll('tr:not(.hidden)');
+                if (visibleRows.length === 0) {
+                    thead.classList.add('hidden');
+                } else {
+                    thead.classList.remove('hidden');
+                }
+            }
             
             expandAll();
             document.getElementById('searchInfo').textContent = `Found ${matches} results for "${query}"`;
