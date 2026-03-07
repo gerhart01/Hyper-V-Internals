@@ -1,4 +1,4 @@
-# <center>Hyper-V internals researches history (2006-2025)</center> <!-- omit in toc -->
+# <center>Hyper-V internals researches history (2006-2026)</center> <!-- omit in toc -->
 
 - [ Hyper-V internals researches](#hyper-v-internals-researches)
 - [ MSDN and other Microsoft sources](#msdn-and-other-microsoft-sources)
@@ -80,9 +80,11 @@
 | **01.09.2024** | Junsu Lee                                                                      | [@pwndorei](https://www.x.com/pwndorei)                                                                                                                    | Hyper-V 1-day Class: CVE-2024-38080                                                                          | [Link](https://hackyboiz.github.io/2024/09/01/pwndorei/hyperv-1dayclass_CVE-2024-38080) <br> [Sources](https://github.com/pwndorei/CVE-2024-38080) |      
 | **14.10.2024** | Dor00tkit                                                                      | [@Dor00tkit](https://x.com/Dor00tkit)                                                                                                                      | Debugging the Windows Hypervisor: Inspecting SK Calls                                                        | [Link](https://dor00tkit.github.io/Dor00tkit/posts/debugging-the-windows-hypervisor-inspecting-sk-calls)|     
 | **19.10.2024** | *[Microsoft]* Chris Oo                                                         |                                                                                                                                                            | OpenHCL: A Linux based paravisor for Confidential VMs                                                        | [Link](https://lpc.events/event/18/contributions/1862/attachments/1633/3376/04-OpenHCL.pdf)|  
+| **08.12.2024** | Samuel Tulach                                                                  | [(@tulachsam)](https://x.com/tulachsam)                                                                                                                    | From firmware to VBS enclave: bootkitting Hyper-V                                                            | [Link](https://tulach.cc/from-firmware-to-vbs-enclave-bootkitting-hyper-v/)|   
 | **10.03.2025** | Alessandro Iandoli                                                             | [@MrAle_98](https://x.com/MrAle_98)                                                                                                                        | CVE-2025–21333 Windows heap-based buffer overflow analysis (vkrnlintvsp.sys vulnerability)                   | [Link](https://infosecwriteups.com/cve-2025-21333-windows-heap-based-buffer-overflow-analysis-d1b597ae4bae)|    
 | **12.03.2025** | Alexandre Borges																  | [@ale_sp_brazil](https://x.com/ale_sp_brazil)                                                                                                              | Exploiting Reversing (ER) series: Article 05. Hyper-V (part 01)                                              | [Link](https://exploitreversing.com/wp-content/uploads/2025/03/exploit_reversing_05.pdf)|     
 | **08.09.2025** | Connor McGarr                                                                  | [@33y0re](https://www.x.com/33y0re)            																											   | Windows Internals: Secure Calls - The Bridge Between The NT Kernel and Secure Kernel                         | [Link](https://connormcgarr.github.io/secure-calls-and-skbridge)|    
+| **02.06.2026** | Connor McGarr                                                                  | [@33y0re](https://www.x.com/33y0re)            																											   | Windows ARM64 Internals: Pardon The Interruption! Interrupts on Windows for ARM. Part "Virtualization and Interrupts" | [Link](https://connormcgarr.github.io/windows-arm64-interrupts/)|      
 
 [Microsoft] - research was made by employee of Hyper-V creators company
 
@@ -178,6 +180,9 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 # <center>&nbsp;Hyper-V related free and open source utilities, scripts, schemes</center> 
 
 [2013-2025] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)  
+* Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/HfZ1SRe9dYW4Qg)  
+* Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)  
+* Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)  
 * LiveCloudKd. [Link](https://github.com/gerhart01/LiveCloudKd)  
 * Hyper-V memory manager plugin SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdSdk)  
   * Hyper-V memory manager plugin Python SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdPy)  
@@ -209,10 +214,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Hyper-V components scheme (Windows 11 23H2). [Link](https://github.com/gerhart01/Hyper-V-Internals/blob/master/Hyper-V%20components%20(Windows%2011%2023H2).png)   
 * Hyper-V Memory Manager plugin module for Powershell. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HvlibPowershell)  
 * All hvlib-based projects in one solution. [Link](https://gitlab.com/hvlib/sdk)   
-* Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/jJJGTL7xCuFAV)  
-* Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)  
-* Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)  
-	#### AI generated software. This software was generated by AI systems (online or offline). I want to do minimum code changes after code generation and not will plan to do custom patches for it. If you want to use that software, you need to do additional tests for it, because AI systems are active developed at this time  
+	#### AI generated software
 * Hyper-V Security Framework. Tool for analyzing security of Hyper-V environment. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperV-Security-Framework)  
 * Hyper-V Detector. Tool for making Hyper-V detection in user and kernel mode. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Hyperv_detector)  
 * Spider Stone. Tool for listing files, which are installed for specifying Hyper-V optional features. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Spider_Stone)  
@@ -305,4 +307,5 @@ Virtual Box source code.
  # <center>&nbsp;Other sources, interesting links and Hyper-V related materials</center>
 
 Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
+JTAG debug of Windows Hyper-V / Secure Kernel with WinDbg and EXDI: Part 1 and other. (Debugger is unavailable even in trial version). Alan Sguigna [(@AlanSguigna)](https://x.com/AlanSguigna). [Link](https://web.archive.org/web/20240228114931/https://www.asset-intertech.com/resources/blog/2024/01/jtag-debug-of-windows-hyper-v-secure-kernel-with-windbg-and-exdi-part-1/)
  
