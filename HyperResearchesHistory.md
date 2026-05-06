@@ -102,7 +102,7 @@ Windows Powershell modules: [Hyper-V sockets example](https://github.com/PowerSh
 
 Host Compute Network (HCN) service API for VMs and containers: [Link](https://github.com/microsoft/hcsshim)  
 Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
-SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Windows SDK
+SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Windows SDK  
 Msvm firmware project for virtual machines running with the Microsoft hypervisor [Link](https://github.com/microsoft/mu_msvm)  
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)  
@@ -179,7 +179,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 # <center>&nbsp;Hyper-V related free and open source utilities, scripts, schemes</center> 
 
-[2013-2025] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)  
+[2013-2026] Arthur Khudyaev [(@gerhart_x)](https://www.x.com/gerhart_x)  
 * Files and scripts to "Hyper-V debugging for beginners (2013)" article. [Link](https://yadi.sk/d/HfZ1SRe9dYW4Qg)  
 * Files and scripts to "Hyper-V internals (2015)" article. [Link](https://yadi.sk/d/4xw2Y4UHOhdvcw)  
 * Files and scripts to "Hyper-V debugging for beginners. 2nd edition (2020)" article. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Hyper-V-debugging.%202nd-edition)  
@@ -187,18 +187,19 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Hyper-V memory manager plugin SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdSdk)  
   * Hyper-V memory manager plugin Python SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdPy)  
   * Hyper-V memory manager plugin .Net SDK. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvlibdotnet)  
-  * Hyper-V memory manager plugin SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)  
+  * Hyper-V memory manager plugin C SDK examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExample)  
+  * Hyper-V memory manager plugin Rust SDK and examples. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdRs), [Examples](https://github.com/gerhart01/LiveCloudKd/tree/master/LiveCloudKdExampleRs)  
 * Native Hyper-V reading memory example driver. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/hvmm)  
 * CVE-2020-0890 PoC sources with binary (Windows Hyper-V Denial of Service Vulnerability). [Link](https://github.com/gerhart01/hyperv_local_dos_poc)  
 * Hyper-V integration plugin for MemProcFS by [@UlfFrisk](https://www.x.com/UlfFrisk).   
   * Source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/leechcore_device_hvmm).  
   * Plugin description from [@UlfFrisk](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v1.5.20250226/leechcore_hyperv_plugin_26.02.2025.zip)  
-* LiveCloudKd EXDi plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
-* LiveCloudKd EXDi plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)  
-* LiveCloudKd EXDi static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v3.0.0.20250226/LiveCloudKd.v3.0.0.20250226-release.zip)  
+* LiveCloudKd EXDI plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
+* LiveCloudKd EXDI plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)  
+* LiveCloudKd EXDI static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v3.2.0.20260304/LiveCloudKd.v3.2.0.20260304-release.zip)  
 * Hvcalls GUI - tool for extracting hypercalls from Windows Hyper-V binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)  
 * Radare2 build for displaying Hyper-V internals information through kd connection. [Link](https://yadi.sk/d/eDAD9gIMEcAYEg)  
-* Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/v1.0.20240427/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20240427.zip)  
+* Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/v1.0.20260219/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20260219.zip)  
 * Hyper Views - utility for viewing Hyper-V memory page tables. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperViews)  
 * Scripts for Hyper-V researching: [Link](https://github.com/gerhart01/Hyper-V-scripts)  
 	 * Script for hypercalls table creation in IDA PRO. [Link](https://github.com/gerhart01/Hyper-V-scripts/blob/master/ida75/ida75_CreatemVmcallHandlersTableWin11Preview.py)  
@@ -218,6 +219,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 * Hyper-V Security Framework. Tool for analyzing security of Hyper-V environment. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperV-Security-Framework)  
 * Hyper-V Detector. Tool for making Hyper-V detection in user and kernel mode. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Hyperv_detector)  
 * Spider Stone. Tool for listing files, which are installed for specifying Hyper-V optional features. [Link](https://github.com/gerhart01/Hyper-V-scripts/tree/master/Spider_Stone)  
+* Hyper-V VMCX Viewer. Tools for reading and partitially writing Hyper-V VMCX VM configuration file. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/HyperV-VMCX-Viewer)  
 		
 [2014, 2024] Marc-André Moreau [(@awakecoding)](https://www.x.com/awakecoding). 
 * Hyper-V VmBusPipe [Link](https://github.com/awakecoding/VMBusPipe) 
