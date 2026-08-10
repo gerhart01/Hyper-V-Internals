@@ -97,7 +97,7 @@ Hyper-V top level functional specifications: [Link](https://github.com/Microsoft
 
 Linux kernel for Hyper-V root partition [Link](https://lore.kernel.org/linux-hyperv/)  
 OpenHCL: the new, open source paravisor [Link](https://techcommunity.microsoft.com/t5/windows-os-platform-blog/openhcl-the-new-open-source-paravisor/ba-p/4273172). [Sources](https://github.com/microsoft/OHCL-Linux-Kernel)  
-Modular, cross-platform Virtual Machine Monitor (VMM), written in Rust. [Link](https://github.com/microsoft/openvmm) 
+Modular, cross-platform Virtual Machine Monitor (VMM), written in Rust. [Link](https://github.com/microsoft/openvmm)  
 Microsoft Hypervisor wrappers [Link](https://github.com/rust-vmm/mshv)  
 Windows Powershell modules: [Hyper-V sockets example](https://github.com/PowerShell/PowerShell/blob/master/src/System.Management.Automation/engine/remoting/common/RemoteSessionHyperVSocket.cs)  
 
@@ -309,6 +309,6 @@ Virtual Box source code.
 
  # <center>&nbsp;Other sources, interesting links and Hyper-V related materials</center>
 
-Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)
+Notes for using Host Compute System API from Kenji Mouri [(@MouriNaruto)](https://www.x.com/MouriNaruto). [Link](https://github.com/MouriNaruto/MouriDocs/tree/main/docs/4)  
 JTAG debug of Windows Hyper-V / Secure Kernel with WinDbg and EXDI: Part 1 and other. (Debugger is unavailable even in trial version). Alan Sguigna [(@AlanSguigna)](https://x.com/AlanSguigna). [Link](https://web.archive.org/web/20240228114931/https://www.asset-intertech.com/resources/blog/2024/01/jtag-debug-of-windows-hyper-v-secure-kernel-with-windbg-and-exdi-part-1/)
  
