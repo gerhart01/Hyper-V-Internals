@@ -105,6 +105,7 @@ Host Compute Network (HCN) service API for VMs and containers: [Link](https://gi
 Windows classic samples (Hyper-V): [Link](https://github.com/microsoft/Windows-classic-samples/tree/main/Samples/Hyper-V)  
 SkTool - Hypervisor / Secure Kernel / Secure Mitigations Parser Tool from Windows SDK  
 Msvm firmware project for virtual machines running with the Microsoft hypervisor [Link](https://github.com/microsoft/mu_msvm)  
+NVX: An Ultra-Light Micro-VM Sandbox [Link](https://github.com/microsoft/nvx)   
 
 (Windows Internals book, Hyper-V TLFS, another MSDN docs are standard Hyper-V internals information sources)  
 
@@ -197,7 +198,7 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
   * Plugin description from [@UlfFrisk](https://www.x.com/UlfFrisk). [Link](https://github.com/ufrisk/LeechCore/wiki/Device_LiveCloudKd). [Distributive](https://github.com/gerhart01/LiveCloudKd/releases/download/v1.5.20250226/leechcore_hyperv_plugin_26.02.2025.zip)  
 * LiveCloudKd EXDI plugin source code. [Link](https://github.com/gerhart01/LiveCloudKd/tree/master/ExdiKdSample)  
 * LiveCloudKd EXDI plugin for Windows Secure Kernel debugging. [Link](https://github.com/gerhart01/LiveCloudKd/blob/master/ExdiKdSample/LiveDebugging.md)  
-* LiveCloudKd EXDI static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v3.2.0.20260304/LiveCloudKd.v3.2.0.20260304-release.zip)  
+* LiveCloudKd EXDI static plugin for reading and writing Hyper-V memory. [Link](https://github.com/gerhart01/LiveCloudKd/releases/download/v3.3.2.20260720/LiveCloudKd.v3.3.2.20260720-release.zip)  
 * Hvcalls GUI - tool for extracting hypercalls from Windows Hyper-V binaries. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Extract.Hvcalls)  
 * Radare2 build for displaying Hyper-V internals information through kd connection. [Link](https://yadi.sk/d/eDAD9gIMEcAYEg)  
 * Hyper-V integration plugin for volatility. [Link](https://github.com/gerhart01/Hyper-V-Tools/tree/main/Plugin_for_volatility). [Distributive](https://github.com/gerhart01/Hyper-V-Tools/releases/download/v1.0.20260219/Hyper-V.Memory.Manager.plugin.for.volatility.v1.0.20260219.zip)  
@@ -232,9 +233,12 @@ I'm not specalized in VBS, which is Hyper-V based security mechanism, therefore 
 
 [2018-2019] Alex Ionescu [(@aionescu)](https://www.x.com/aionescu). 
 * Simpleator ("Simple-ator") is an innovative Windows-centric x64 user-mode application emulator that leverages several new features that were added in Windows 10 Spring Update (1803). [Link](https://github.com/ionescu007/Simpleator).  
-* Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)  
+* Hdk - Hyper-V development kit (unofficial). [Link](https://github.com/ionescu007/hdk)   
 
-[2018] Matthieu Suiche [[www.msuiche.com]](https://www.msuiche.com). LiveCloudKd. [Link](https://github.com/msuiche/LiveCloudKd)
+[2018, 2026] Matthieu Suiche [[www.msuiche.com]](https://www.msuiche.com). 
+
+* LiveCloudKd. [Link](https://github.com/msuiche/LiveCloudKd)  
+* Subvisor. [Link](https://github.com/msuiche/subvisor)  
 
 [2019, 2021] Axel Souchet [(@0vercl0k)](https://www.x.com/0vercl0k). 
 * Pywinhv. Python binding for the Microsoft Hypervisor Platform APIs. [Link](https://github.com/0vercl0k/pywinhv)  
